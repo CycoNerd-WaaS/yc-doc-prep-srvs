@@ -1,0 +1,107 @@
+<!-- ============================================================================
+     HEADER - Navigation & Language Toggle
+     COMMENTS 
+     Filename: default.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+<header class="site-header">
+  <div class="header-container">
+    
+    <!-- Logo & Business Name -->
+    <a href="{{ '/' | relative_url }}" class="logo-link" aria-label="Document Assistance Home">
+      <img src="{{ '/assets/images/logo/logo-64.png' | relative_url }}" 
+           alt="Document Assistance Logo" 
+           class="logo-img"
+           width="48" 
+           height="48">
+      <span class="logo-text">
+        <span class="logo-name">Document Assistance</span>
+        <span class="logo-tagline" data-lang-en="Tax • Notary • Documents" data-lang-es="Impuestos • Notario • Documentos">Tax • Notary • Documents</span>
+      </span>
+    </a>
+    
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" 
+            aria-label="Toggle navigation menu" 
+            aria-expanded="false"
+            aria-controls="main-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    
+    <!-- Main Navigation -->
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="{{ '/' | relative_url }}" 
+             class="nav-link {% if page.url == '/' %}active{% endif %}"
+             data-lang-en="Home"
+             data-lang-es="Inicio">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/about' | relative_url }}" 
+             class="nav-link {% if page.url contains 'about' %}active{% endif %}"
+             data-lang-en="About"
+             data-lang-es="Acerca de">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/services' | relative_url }}" 
+             class="nav-link {% if page.url contains 'services' %}active{% endif %}"
+             data-lang-en="Services"
+             data-lang-es="Servicios">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/rates' | relative_url }}" 
+             class="nav-link {% if page.url contains 'rates' %}active{% endif %}"
+             data-lang-en="Rates"
+             data-lang-es="Tarifas">Rates</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/faq' | relative_url }}" 
+             class="nav-link {% if page.url contains 'faq' %}active{% endif %}"
+             data-lang-en="FAQ"
+             data-lang-es="Preguntas">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/contact' | relative_url }}" 
+             class="nav-link nav-link-cta {% if page.url contains 'contact' %}active{% endif %}"
+             data-lang-en="Contact"
+             data-lang-es="Contacto">Contact</a>
+        </li>
+      </ul>
+      
+      <!-- Language Toggle -->
+      <div class="language-toggle">
+        <button class="lang-btn" 
+                data-lang="en" 
+                aria-label="Switch to English"
+                aria-pressed="true">
+          EN
+        </button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" 
+                data-lang="es" 
+                aria-label="Cambiar a Español"
+                aria-pressed="false">
+          ES
+        </button>
+      </div>
+    </nav>
+    
+  </div>
+</header>
+
+<!-- Disclaimer Strip (Always Visible) -->
+<div class="disclaimer-strip">
+  <div class="disclaimer-strip-content">
+    <i class="ph ph-info"></i>
+    <span data-lang-en="Not a law firm. We do not provide legal advice."
+          data-lang-es="No somos un bufete de abogados. No proporcionamos asesoramiento legal.">
+      Not a law firm. We do not provide legal advice.
+    </span>
+  </div>
+</div>

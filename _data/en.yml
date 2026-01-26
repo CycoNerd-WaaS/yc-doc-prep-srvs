@@ -1,0 +1,309 @@
+# ==============================================================================
+# DOCUMENT ASSISTANCE - English Content
+# Filename: _data/en.yml
+# Created:  2026-01-25
+# Updated:  2026-01-25
+# Purpose:  All translatable content for the website
+# ==============================================================================
+
+# Site-wide
+site:
+  title: "Document Assistance"
+  tagline: "Professional Document Preparation You Can Trust"
+  description: "Expert Tax Preparation, Notary Public, and Document Assistance services in Pomona, California. Se Habla Español."
+
+# Navigation
+nav:
+  home: "Home"
+  about: "About"
+  services: "Services"
+  rates: "Rates"
+  faq: "FAQ"
+  contact: "Contact"
+  disclaimers: "Disclaimers"
+
+# Hero Section
+hero:
+  badge: "Serving Pomona Since 1990+"
+  title: "Professional Document Preparation You Can Trust"
+  subtitle: "Expert Tax Preparation, Notary Public, and Administrative Support Services"
+  cta_primary: "Schedule Consultation"
+  cta_secondary: "View Services"
+  call_now: "Call Now"
+
+# Services
+services:
+  section_title: "Our Services"
+  section_subtitle: "Professional document preparation and administrative support services"
+  
+  tax:
+    title: "Tax Preparation"
+    description: "CTEC registered tax preparer offering accurate and professional income tax services for individuals and small businesses."
+    features:
+      - "Individual Tax Returns (Form 1040)"
+      - "Self-Employment Income"
+      - "ITIN Application & Renewal"
+      - "Amended Returns"
+      - "Prior Year Filing"
+    cta: "View Tax Services"
+  
+  notary:
+    title: "Notary Public"
+    description: "California commissioned Notary Public providing official notarization services for legal documents, affidavits, and more."
+    features:
+      - "Acknowledgments"
+      - "Jurats"
+      - "Certified Copies"
+      - "Oaths & Affirmations"
+      - "Mobile Notary Available"
+    cta: "Learn More"
+  
+  lda:
+    title: "Legal Document Assistance"
+    description: "Professional preparation of legal documents at your specific direction. We are not attorneys and do not provide legal advice."
+    features:
+      - "Divorce (Dissolution)"
+      - "Child Custody & Support"
+      - "Name Change"
+      - "Living Trusts & Wills"
+      - "Restraining Orders"
+    cta: "View Document Services"
+    
+  admin:
+    title: "Administrative Support"
+    description: "General administrative and document preparation support for individuals and small businesses."
+    features:
+      - "Document Typing"
+      - "Form Completion"
+      - "Business Formation Papers"
+      - "Translation Assistance"
+    cta: "Contact Us"
+
+# Trust Indicators
+trust:
+  section_title: "Why Choose Us"
+  items:
+    - title: "30+ Years Experience"
+      description: "Serving the Pomona community with professionalism and integrity"
+    - title: "Licensed & Bonded"
+      description: "Fully registered with CTEC and California Secretary of State"
+    - title: "Confidential Service"
+      description: "Your personal information is protected and handled with care"
+    - title: "Bilingual Support"
+      description: "Se Habla Español - Fluent in English and Spanish"
+
+# About Page
+about:
+  page_title: "About Us"
+  headline: "Meet Yaneth Cisneros"
+  intro: "Owner and operator of Document Assistance, serving the Pomona Valley community for over three decades."
+  bio: |
+    With more than 30 years of experience in tax preparation and document assistance, 
+    Yaneth Cisneros has built a reputation for accuracy, professionalism, and compassionate service. 
+    As a CTEC Registered Tax Preparer and California Notary Public, she provides reliable administrative 
+    support to individuals and families throughout the Pomona Valley.
+  values_title: "Our Commitment to You"
+  values:
+    - title: "Accuracy"
+      description: "Every document is prepared with meticulous attention to detail"
+    - title: "Confidentiality"
+      description: "Your personal information is handled with the utmost discretion"
+    - title: "Accessibility"
+      description: "Bilingual services to serve our diverse community"
+    - title: "Integrity"
+      description: "Honest, transparent service you can rely on"
+
+# Rates Page
+rates:
+  page_title: "Rates & Pricing"
+  intro: "Transparent pricing for all services. Prices may vary based on complexity."
+  contact_note: "For custom quotes or complex situations, please contact us."
+  
+  tax_title: "Income Tax Preparation"
+  tax_services:
+    - service: "Short Form W-2 with Direct Deposit"
+      price: "$150.00"
+    - service: "Long Form (Homeowner)"
+      price: "$175.00"
+    - service: "Interest Income (1099-INT)"
+      price: "$30.00"
+    - service: "Rental Property"
+      price: "$200.00"
+    - service: "Education Credit (1098-E/T)"
+      price: "$30.00"
+    - service: "Self-Employed (Cash/1099-MISC)"
+      price: "$275.00 - $350.00"
+    - service: "ITIN Application/Renewal"
+      price: "$100.00"
+    - service: "Amended Tax Return (1040X)"
+      price: "$175.00"
+  
+  notary_title: "Notary Public Services"
+  notary_note: "California fees regulated by law. Call for current rates."
+  
+  lda_title: "Legal Document Preparation"
+  lda_disclaimer: "Prices are for document preparation only. Filing fees are additional and paid directly to the court."
+  lda_services:
+    - service: "Simple Divorce (No children, no property)"
+      price: "$850.00"
+    - service: "Divorce with Children"
+      price: "$1,200.00"
+    - service: "Divorce with Property"
+      price: "$1,400.00"
+    - service: "Divorce with Children and Property"
+      price: "$1,600.00"
+    - service: "Custody Petition"
+      price: "$1,200.00"
+    - service: "Paternity"
+      price: "$1,200.00"
+    - service: "Request for Order (RFO)"
+      price: "$650.00"
+    - service: "Stipulated Agreement"
+      price: "$600.00"
+    - service: "MSC Brief / Trial Brief"
+      price: "$450.00"
+    - service: "Response to Petition"
+      price: "$650.00"
+    - service: "Name Change"
+      price: "$650.00"
+    - service: "Restraining Order"
+      price: "$650.00"
+
+# Contact Page
+contact:
+  page_title: "Contact Us"
+  headline: "Get in Touch"
+  intro: "Schedule a consultation or ask a question. We're here to help."
+  appointment_notice: "By Appointment Only — No Walk-Ins"
+  
+  form:
+    name_label: "Full Name"
+    name_placeholder: "Your full name"
+    email_label: "Email Address"
+    email_placeholder: "your.email@example.com"
+    phone_label: "Phone Number"
+    phone_placeholder: "(000) 000-0000"
+    service_label: "Service Needed"
+    service_options:
+      - "Tax Preparation"
+      - "Notary Public"
+      - "Legal Document Assistance"
+      - "Other Inquiry"
+    message_label: "Message"
+    message_placeholder: "Please describe what you need assistance with..."
+    submit: "Send Inquiry"
+    
+  form_disclaimer: "By submitting this form, you acknowledge that you are seeking administrative or document preparation assistance. You understand that DOCUMENT ASSISTANCE is not a law firm and no attorney-client relationship is created by this communication."
+
+# FAQ Page
+faq:
+  page_title: "Frequently Asked Questions"
+  
+  questions:
+    - q: "What is a Legal Document Assistant (LDA)?"
+      a: "A Legal Document Assistant is a registered professional who can prepare legal documents at your specific direction. LDAs are not attorneys and cannot provide legal advice, represent you in court, or interpret the law. We help you complete and file paperwork for self-represented (pro per) matters."
+    
+    - q: "What's the difference between an LDA and an attorney?"
+      a: "An attorney can provide legal advice, represent you in court, and make legal decisions on your behalf. An LDA can only prepare documents at your direction and provide general information. If your matter is contested or complex, you may need an attorney."
+    
+    - q: "What is CTEC and why does it matter?"
+      a: "CTEC (California Tax Education Council) registers and regulates tax preparers in California. Using a CTEC-registered preparer ensures they've completed required education and passed background checks. Our CTEC ID is verifiable at ctec.org."
+    
+    - q: "Do you provide immigration services?"
+      a: "No. We do not provide any immigration-related services or documentation. For immigration matters, please consult with a licensed immigration attorney or accredited representative."
+    
+    - q: "Do you offer payment plans?"
+      a: "Payment arrangements may be available depending on the service. Please inquire during your consultation."
+    
+    - q: "How long does document preparation take?"
+      a: "Timeframes vary by document type and complexity. Simple documents may be completed in a few days, while complex matters like divorce may take longer. We'll provide an estimated timeline during your consultation."
+    
+    - q: "Can you help if my case is contested?"
+      a: "For contested matters (where the other party disagrees), we strongly recommend consulting with an attorney. We can only prepare documents for uncontested matters where both parties agree on terms."
+
+# Disclaimers Page
+disclaimers:
+  page_title: "Legal Disclaimers"
+  
+  main_disclaimer:
+    title: "Important Notice"
+    content: |
+      DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. 
+      We are not a law firm, and we cannot provide legal advice, interpret the law, 
+      select forms for you, or represent you in court.
+      
+      Yaneth Cisneros is not an attorney. She can only provide self-help services 
+      at your specific direction.
+  
+  lda_disclaimer:
+    title: "Legal Document Assistant Disclosure"
+    content: |
+      As required by California Business and Professions Code Section 6408.5:
+      
+      "I am not an attorney. I can only provide self-help services at your specific direction."
+      
+      Legal Document Assistants are registered with the county clerk and must maintain 
+      a surety bond. Our registration information is displayed in our office and on this website.
+  
+  tax_disclaimer:
+    title: "Tax Preparation Disclosure"
+    content: |
+      Yaneth Cisneros is a California Tax Education Council (CTEC) Registered Tax Preparer. 
+      CTEC registration does not imply endorsement by the state. You may verify registration 
+      status at ctec.org.
+      
+      Tax advice provided is based on information you supply and current tax law. 
+      We are not responsible for penalties or interest resulting from incorrect information 
+      provided to us.
+  
+  notary_disclaimer:
+    title: "Notary Public Disclosure"
+    content: |
+      Yaneth Cisneros is a California Notary Public commissioned by the Secretary of State.
+      
+      A Notary Public is a state-commissioned public officer who serves as an impartial 
+      witness to the signing of important documents. Notaries cannot provide legal advice 
+      or prepare legal documents.
+  
+  privacy:
+    title: "Privacy & Confidentiality"
+    content: |
+      We take your privacy seriously. Personal information collected is used only for 
+      providing requested services. We do not sell or share your information with third parties.
+      
+      Documents and information provided to us are kept confidential and stored securely.
+
+# Footer
+footer:
+  contact_title: "Contact Us"
+  hours_title: "Office Hours"
+  credentials_title: "Licenses & Registrations"
+  
+  weekdays: "Monday - Friday"
+  saturday: "Saturday"
+  sunday: "Sunday"
+  by_appointment: "By Appointment"
+  closed: "Closed"
+  
+  disclaimer_notice: "IMPORTANT NOTICE:"
+  statutory_disclaimer: "I am not an attorney. I can only provide self-help services at your specific direction."
+  
+  full_disclaimers: "Full Disclaimers"
+  all_rights: "All rights reserved."
+
+# Common UI Elements
+common:
+  learn_more: "Learn More"
+  view_all: "View All"
+  back: "Back"
+  next: "Next"
+  submit: "Submit"
+  required: "Required"
+  optional: "Optional"
+  loading: "Loading..."
+  error: "An error occurred"
+  success: "Success"
+  phone: "Phone"
+  email: "Email"
+  address: "Address"
+  hours: "Hours"

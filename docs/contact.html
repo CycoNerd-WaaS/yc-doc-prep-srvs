@@ -1,0 +1,179 @@
+---
+layout: default
+title: Contact
+description: Contact Document Assistance in Pomona, CA. Schedule a consultation for tax preparation, notary, or document services.
+---
+
+<!-- Contact Header -->
+<section style="padding: var(--space-16) 0; background: var(--color-primary);">
+  <div class="container" style="text-align: center;">
+    <h1 style="color: var(--color-white);"
+        data-lang-en="Contact Us"
+        data-lang-es="Contáctenos">Contact Us</h1>
+    <p style="font-size: var(--text-lg); color: rgba(255,255,255,0.85);"
+       data-lang-en="Schedule a consultation or ask a question. We're here to help."
+       data-lang-es="Programe una consulta o haga una pregunta. Estamos aquí para ayudar.">
+      Schedule a consultation or ask a question. We're here to help.
+    </p>
+  </div>
+</section>
+
+<!-- Contact Content -->
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-grid">
+      
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <h2 data-lang-en="Get in Touch" data-lang-es="Póngase en Contacto">Get in Touch</h2>
+        
+        <ul class="contact-details">
+          <li>
+            <i class="ph ph-map-pin"></i>
+            <div>
+              <strong data-lang-en="Address" data-lang-es="Dirección">Address</strong><br>
+              {{ site.business.address.street }}, {{ site.business.address.suite }}<br>
+              {{ site.business.address.city }}, {{ site.business.address.state }} {{ site.business.address.zip }}
+            </div>
+          </li>
+          <li>
+            <i class="ph ph-phone"></i>
+            <div>
+              <strong data-lang-en="Phone" data-lang-es="Teléfono">Phone</strong><br>
+              <a href="tel:+19096235276">{{ site.business.phone_primary }}</a><br>
+              <a href="tel:+19092424343">{{ site.business.phone_secondary }}</a>
+            </div>
+          </li>
+          <li>
+            <i class="ph ph-envelope"></i>
+            <div>
+              <strong data-lang-en="Email" data-lang-es="Correo">Email</strong><br>
+              <a href="mailto:{{ site.business.email }}">{{ site.business.email }}</a>
+            </div>
+          </li>
+          <li>
+            <i class="ph ph-clock"></i>
+            <div>
+              <strong data-lang-en="Office Hours" data-lang-es="Horario">Office Hours</strong><br>
+              <span data-lang-en="Mon-Fri:" data-lang-es="Lun-Vie:">Mon-Fri:</span> {{ site.business.hours.weekdays }}<br>
+              <span data-lang-en="Sat:" data-lang-es="Sáb:">Sat:</span> <span data-lang-en="{{ site.business.hours.saturday }}" data-lang-es="Con Cita">{{ site.business.hours.saturday }}</span><br>
+              <span data-lang-en="Sun:" data-lang-es="Dom:">Sun:</span> <span data-lang-en="{{ site.business.hours.sunday }}" data-lang-es="Cerrado">{{ site.business.hours.sunday }}</span>
+            </div>
+          </li>
+        </ul>
+        
+        <div style="padding: var(--space-4); background: rgba(239, 68, 68, 0.1); border-radius: var(--radius-md); margin-top: var(--space-6);">
+          <p style="margin: 0; display: flex; align-items: center; gap: var(--space-2); color: #dc2626;">
+            <i class="ph ph-warning"></i>
+            <strong data-lang-en="By Appointment Only — No Walk-Ins"
+                    data-lang-es="Solo con Cita — No se Atiende sin Cita">By Appointment Only — No Walk-Ins</strong>
+          </p>
+        </div>
+        
+        <div style="padding: var(--space-4); background: rgba(79, 157, 157, 0.1); border-radius: var(--radius-md); margin-top: var(--space-4);">
+          <p style="margin: 0; display: flex; align-items: center; gap: var(--space-2); color: var(--color-secondary);">
+            <i class="ph ph-translate"></i>
+            <strong>Se Habla Español</strong>
+          </p>
+        </div>
+      </div>
+      
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2 data-lang-en="Send Us a Message" data-lang-es="Envíenos un Mensaje">Send Us a Message</h2>
+        
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-validate>
+          <div class="form-group">
+            <label for="name">
+              <span data-lang-en="Full Name" data-lang-es="Nombre Completo">Full Name</span>
+              <span style="color: var(--color-error);">*</span>
+            </label>
+            <input type="text" id="name" name="name" required
+                   placeholder="Your full name"
+                   data-placeholder-en="Your full name"
+                   data-placeholder-es="Su nombre completo">
+          </div>
+          
+          <div class="form-group">
+            <label for="email">
+              <span data-lang-en="Email Address" data-lang-es="Correo Electrónico">Email Address</span>
+              <span style="color: var(--color-error);">*</span>
+            </label>
+            <input type="email" id="email" name="email" required
+                   placeholder="your.email@example.com">
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">
+              <span data-lang-en="Phone Number" data-lang-es="Número de Teléfono">Phone Number</span>
+            </label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="(000) 000-0000">
+          </div>
+          
+          <div class="form-group">
+            <label for="service">
+              <span data-lang-en="Service Needed" data-lang-es="Servicio Necesitado">Service Needed</span>
+              <span style="color: var(--color-error);">*</span>
+            </label>
+            <select id="service" name="service" required>
+              <option value="" data-lang-en="Select a service..." data-lang-es="Seleccione un servicio...">Select a service...</option>
+              <option value="tax" data-lang-en="Tax Preparation" data-lang-es="Preparación de Impuestos">Tax Preparation</option>
+              <option value="notary" data-lang-en="Notary Public" data-lang-es="Notario Público">Notary Public</option>
+              {% if site.enable_lda_services %}
+              <option value="divorce" data-lang-en="Divorce / Family Law" data-lang-es="Divorcio / Derecho Familiar">Divorce / Family Law</option>
+              <option value="custody" data-lang-en="Custody / Support" data-lang-es="Custodia / Manutención">Custody / Support</option>
+              <option value="estate" data-lang-en="Wills / Living Trust" data-lang-es="Testamentos / Fideicomiso">Wills / Living Trust</option>
+              <option value="other_legal" data-lang-en="Other Legal Documents" data-lang-es="Otros Documentos Legales">Other Legal Documents</option>
+              {% endif %}
+              <option value="other" data-lang-en="Other Inquiry" data-lang-es="Otra Consulta">Other Inquiry</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">
+              <span data-lang-en="Message" data-lang-es="Mensaje">Message</span>
+              <span style="color: var(--color-error);">*</span>
+            </label>
+            <textarea id="message" name="message" required
+                      placeholder="Please describe what you need assistance with..."
+                      data-placeholder-en="Please describe what you need assistance with..."
+                      data-placeholder-es="Por favor describa con qué necesita asistencia..."></textarea>
+          </div>
+          
+          <!-- Form Disclaimer -->
+          <div class="form-disclaimer">
+            <i class="ph ph-info"></i>
+            <span data-lang-en="By submitting this form, you acknowledge that you are seeking administrative or document preparation assistance. You understand that DOCUMENT ASSISTANCE is not a law firm and no attorney-client relationship is created by this communication."
+                  data-lang-es="Al enviar este formulario, usted reconoce que está buscando asistencia administrativa o de preparación de documentos. Usted entiende que DOCUMENT ASSISTANCE no es un bufete de abogados y ninguna relación abogado-cliente es creada por esta comunicación.">
+              By submitting this form, you acknowledge that you are seeking administrative or document preparation assistance. You understand that DOCUMENT ASSISTANCE is not a law firm and no attorney-client relationship is created by this communication.
+            </span>
+          </div>
+          
+          <!-- Hidden field for spam protection -->
+          <input type="text" name="_gotcha" style="display:none">
+          
+          <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+            <i class="ph ph-paper-plane-tilt"></i>
+            <span data-lang-en="Send Inquiry" data-lang-es="Enviar Consulta">Send Inquiry</span>
+          </button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- Map Section -->
+<section style="padding: 0;">
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.8!2d-117.75!3d34.055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s401+S+Main+St%2C+Pomona%2C+CA+91766!5e0!3m2!1sen!2sus!4v1234567890"
+    width="100%" 
+    height="400" 
+    style="border:0; display: block;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Document Assistance Location Map">
+  </iframe>
+</section>

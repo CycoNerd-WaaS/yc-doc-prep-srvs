@@ -1,0 +1,135 @@
+# ==============================================================================
+# Filename: _config.yml
+# Created:  2026-01-25
+# Updated:  2026-01-25
+# DOCUMENT ASSISTANCE - Jekyll Configuration
+# Professional Tax Preparation, Notary Public & Legal Document Assistance
+# Pomona, California
+# ==============================================================================
+
+# Site Settings
+title: "Document Assistance"
+description: "Professional Tax Preparation, Notary Public & Document Assistance Services in Pomona, CA"
+url: "" # Set to your domain: https://pomonadocs.com or https://username.github.io
+baseurl: "" # Leave empty for root, or "/document-assistance" for subdirectory
+
+# Build Settings
+destination: ./docs # GitHub Pages serves from /docs folder
+markdown: kramdown
+exclude:
+  - README.md
+  - DEPLOY.md
+  - Gemfile
+  - Gemfile.lock
+  - archive/
+  - source/
+  - .gitignore
+
+# ==============================================================================
+# SERVICE ACTIVATION FLAGS
+# ==============================================================================
+# IMPORTANT: Set enable_lda_services to true ONLY when the $25,000 bond is active
+# and LDA registration is complete with Los Angeles County.
+
+enable_lda_services: false  # Change to true when bond is secured
+
+# ==============================================================================
+# Business Information
+# ==============================================================================
+business:
+  name: "Document Assistance"
+  tagline: "Professional Document Preparation You Can Trust"
+  owner: "Yaneth Cisneros"
+  
+  # Physical Location
+  address:
+    street: "401 S Main St"
+    suite: "Suite 205"
+    city: "Pomona"
+    state: "CA"
+    zip: "91766-1638"
+  
+  # Contact Information
+  phone_primary: "(909) 623-5276"
+  phone_secondary: "(909) 242-4343"
+  email: "documentassistant@msn.com"
+  
+  # Business Hours
+  hours:
+    weekdays: "9:00 AM - 5:00 PM"
+    saturday: "By Appointment"
+    sunday: "Closed"
+  
+  # Credentials & Registrations
+  credentials:
+    # Business License
+    business_license:
+      number: "00145257"
+      city: "Pomona"
+      effective_date: "December 16, 2025"
+      expiration_date: "June 30, 2026"
+    
+    # California Notary Public
+    notary:
+      commission_number: "2458791"
+      expiration: "08/11/2027"
+      county: "Los Angeles"
+    
+    # CTEC Registered Tax Preparer
+    ctec:
+      id: "A130143"
+      valid_thru: "10/31/2026"
+      bond_company: "RLI Insurance Company"
+      bond_policy: "905308"
+      bond_amount: "$5,000"
+    
+    # Legal Document Assistant (PENDING)
+    lda:
+      registration_number: "" # Add when bond is secured
+      county: "Los Angeles"
+      expiration: "" # Add when bond is secured
+      bond_amount: "$25,000"
+      status: "Pending Bond"
+
+# ==============================================================================
+# Social & Links (Currently None)
+# ==============================================================================
+social:
+  facebook: ""
+  instagram: ""
+  linkedin: ""
+
+# ==============================================================================
+# Color Palette
+# ==============================================================================
+colors:
+  primary: "#003366"     # Navy Blue - Trust, Authority
+  secondary: "#4F9D9D"   # Teal - Growth, Accessibility
+  accent: "#DAA520"      # Gold - Quality, Success
+  neutral: "#708090"     # Slate Grey - Professional
+  light: "#F5F5F5"       # Off-white - Clean backgrounds
+  dark: "#1a1a2e"        # Dark navy - Headers, footers
+
+# ==============================================================================
+# Form Configuration
+# ==============================================================================
+formspree:
+  endpoint: "https://formspree.io/f/YOUR_FORM_ID" # Replace with your Formspree ID
+
+# ==============================================================================
+# SEO & Meta
+# ==============================================================================
+locale: "en_US"
+lang: "en"
+
+# Google Analytics (Optional)
+google_analytics: "" # Add your GA tracking ID
+
+# ==============================================================================
+# Collections (for future blog/resources expansion)
+# ==============================================================================
+collections_dir: collections
+collections:
+  services:
+    output: true
+    permalink: /services/:name/

@@ -1,0 +1,208 @@
+---
+layout: default
+title: Rates
+description: Transparent pricing for tax preparation, notary public, and document assistance services in Pomona, CA.
+---
+
+<!-- Rates Header -->
+<section style="padding: var(--space-16) 0; background: var(--color-primary);">
+  <div class="container" style="text-align: center;">
+    <h1 style="color: var(--color-white);"
+        data-lang-en="Rates & Pricing"
+        data-lang-es="Tarifas y Precios">Rates & Pricing</h1>
+    <p style="font-size: var(--text-lg); color: rgba(255,255,255,0.85); max-width: 600px; margin: 0 auto;"
+       data-lang-en="Transparent pricing for all services. Prices may vary based on complexity."
+       data-lang-es="Precios transparentes para todos los servicios. Los precios pueden variar según la complejidad.">
+      Transparent pricing for all services. Prices may vary based on complexity.
+    </p>
+  </div>
+</section>
+
+<!-- Tax Preparation Rates -->
+<section id="tax" class="rates-section">
+  <div class="container">
+    <div class="rates-category">
+      <header class="rates-category-header">
+        <div class="rates-category-icon">
+          <i class="ph-duotone ph-calculator"></i>
+        </div>
+        <div>
+          <h2 class="rates-category-title"
+              data-lang-en="Income Tax Preparation"
+              data-lang-es="Preparación de Impuestos">Income Tax Preparation</h2>
+          <p style="margin: 0; color: var(--color-neutral);">CTEC ID: {{ site.business.credentials.ctec.id }}</p>
+        </div>
+      </header>
+      
+      <div class="rates-table">
+        <table>
+          <thead>
+            <tr>
+              <th data-lang-en="Service" data-lang-es="Servicio">Service</th>
+              <th data-lang-en="Price" data-lang-es="Precio">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-lang-en="Short Form W-2 with Direct Deposit" data-lang-es="Forma Corta W-2 con Depósito Directo">Short Form W-2 with Direct Deposit</td>
+              <td>$150.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Long Form (Homeowner)" data-lang-es="Forma Larga (Propietario)">Long Form (Homeowner)</td>
+              <td>$175.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Interest Income (1099-INT)" data-lang-es="Ingresos por Intereses (1099-INT)">Interest Income (1099-INT)</td>
+              <td>$30.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Rental Property" data-lang-es="Propiedad de Alquiler">Rental Property</td>
+              <td>$200.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Education Credit (1098-E/T)" data-lang-es="Crédito Educativo (1098-E/T)">Education Credit (1098-E/T)</td>
+              <td>$30.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Self-Employed (Cash/1099-MISC)" data-lang-es="Trabajo por Cuenta Propia">Self-Employed (Cash/1099-MISC)</td>
+              <td>$275 - $350</td>
+            </tr>
+            <tr>
+              <td data-lang-en="ITIN Application/Renewal" data-lang-es="Solicitud/Renovación de ITIN">ITIN Application/Renewal</td>
+              <td>$100.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Amended Tax Return (1040X)" data-lang-es="Declaración Enmendada (1040X)">Amended Tax Return (1040X)</td>
+              <td>$175.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Notary Rates -->
+    <div class="rates-category">
+      <header class="rates-category-header">
+        <div class="rates-category-icon">
+          <i class="ph-duotone ph-stamp"></i>
+        </div>
+        <div>
+          <h2 class="rates-category-title" data-lang-en="Notary Public" data-lang-es="Notario Público">Notary Public</h2>
+        </div>
+      </header>
+      
+      <div style="background: var(--color-white); padding: var(--space-6); border-radius: var(--radius-lg); box-shadow: var(--shadow-md);">
+        <p data-lang-en="Notary fees in California are regulated by state law. Please call for current rates." 
+           data-lang-es="Las tarifas de notario en California están reguladas por ley. Llame para tarifas actuales.">
+          Notary fees in California are regulated by state law. Please call for current rates.
+        </p>
+        <p style="margin-bottom: 0;">
+          <a href="tel:+19096235276" class="btn btn-outline">
+            <i class="ph ph-phone"></i>
+            {{ site.business.phone_primary }}
+          </a>
+        </p>
+      </div>
+    </div>
+
+    {% if site.enable_lda_services %}
+    <!-- LDA Rates (Conditional) -->
+    <div id="lda" class="rates-category rates-lda">
+      <header class="rates-category-header">
+        <div class="rates-category-icon">
+          <i class="ph-duotone ph-files"></i>
+        </div>
+        <div>
+          <h2 class="rates-category-title" data-lang-en="Legal Document Preparation" data-lang-es="Preparación de Documentos Legales">Legal Document Preparation</h2>
+        </div>
+      </header>
+      
+      <div style="padding: var(--space-4); background: rgba(218, 165, 32, 0.1); border: 1px solid var(--color-accent); border-radius: var(--radius-md); margin-bottom: var(--space-6);">
+        <p style="margin: 0; font-size: var(--text-sm);"
+           data-lang-en="Prices are for document preparation only. Court filing fees are additional and paid directly to the court."
+           data-lang-es="Los precios son solo por preparación. Las tarifas de presentación se pagan directamente a la corte.">
+          Prices are for document preparation only. Court filing fees are additional and paid directly to the court.
+        </p>
+      </div>
+
+      <div class="rates-table">
+        <table>
+          <thead>
+            <tr>
+              <th data-lang-en="Service" data-lang-es="Servicio">Service</th>
+              <th data-lang-en="Price" data-lang-es="Precio">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-lang-en="Simple Divorce (No children, no property)" data-lang-es="Divorcio Simple (Sin hijos, sin propiedad)">Simple Divorce (No children, no property)</td>
+              <td>$850.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Divorce with Children" data-lang-es="Divorcio con Hijos">Divorce with Children</td>
+              <td>$1,200.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Divorce with Property" data-lang-es="Divorcio con Propiedad">Divorce with Property</td>
+              <td>$1,400.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Divorce with Children and Property" data-lang-es="Divorcio con Hijos y Propiedad">Divorce with Children and Property</td>
+              <td>$1,600.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Custody Petition" data-lang-es="Petición de Custodia">Custody Petition</td>
+              <td>$1,200.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Paternity" data-lang-es="Paternidad">Paternity</td>
+              <td>$1,200.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Request for Order (RFO)" data-lang-es="Solicitud de Orden (RFO)">Request for Order (RFO)</td>
+              <td>$650.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Stipulated Agreement" data-lang-es="Acuerdo Estipulado">Stipulated Agreement</td>
+              <td>$600.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="MSC Brief / Trial Brief" data-lang-es="Escrito MSC / Escrito de Juicio">MSC Brief / Trial Brief</td>
+              <td>$450.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Response to Petition" data-lang-es="Respuesta a Petición">Response to Petition</td>
+              <td>$650.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Name Change" data-lang-es="Cambio de Nombre">Name Change</td>
+              <td>$650.00</td>
+            </tr>
+            <tr>
+              <td data-lang-en="Restraining Order" data-lang-es="Orden de Restricción">Restraining Order</td>
+              <td>$650.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {% endif %}
+
+    <p style="text-align: center; margin-top: var(--space-8); color: var(--color-neutral);"
+       data-lang-en="For custom quotes or complex situations, please contact us."
+       data-lang-es="Para cotizaciones personalizadas o situaciones complejas, contáctenos.">
+      For custom quotes or complex situations, please contact us.
+    </p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section style="padding: var(--space-16) 0; background: var(--color-primary); text-align: center;">
+  <div class="container">
+    <h2 style="color: var(--color-white);" data-lang-en="Ready to Get Started?" data-lang-es="¿Listo para Comenzar?">Ready to Get Started?</h2>
+    <a href="{{ '/contact' | relative_url }}" class="btn btn-primary btn-lg">
+      <i class="ph ph-calendar-check"></i>
+      <span data-lang-en="Schedule Consultation" data-lang-es="Programar Consulta">Schedule Consultation</span>
+    </a>
+  </div>
+</section>

@@ -1,0 +1,309 @@
+# ==============================================================================
+# DOCUMENT ASSISTANCE - Contenido en Español
+# Filename: _data/es.yml
+# Created:  2026-01-25
+# Updated:  2026-01-25
+# Purpose:  Todo el contenido traducible para el sitio web
+# ==============================================================================
+
+# Sitio General
+site:
+  title: "Document Assistance"
+  tagline: "Preparación Profesional de Documentos en la que Puede Confiar"
+  description: "Servicios expertos de Preparación de Impuestos, Notario Público y Asistencia de Documentos en Pomona, California. Se Habla Español."
+
+# Navegación
+nav:
+  home: "Inicio"
+  about: "Acerca de"
+  services: "Servicios"
+  rates: "Tarifas"
+  faq: "Preguntas"
+  contact: "Contacto"
+  disclaimers: "Descargos"
+
+# Sección Hero
+hero:
+  badge: "Sirviendo a Pomona Desde 1990+"
+  title: "Preparación Profesional de Documentos en la que Puede Confiar"
+  subtitle: "Servicios Expertos de Preparación de Impuestos, Notario Público y Apoyo Administrativo"
+  cta_primary: "Programar Consulta"
+  cta_secondary: "Ver Servicios"
+  call_now: "Llame Ahora"
+
+# Servicios
+services:
+  section_title: "Nuestros Servicios"
+  section_subtitle: "Servicios profesionales de preparación de documentos y apoyo administrativo"
+  
+  tax:
+    title: "Preparación de Impuestos"
+    description: "Preparador de impuestos registrado con CTEC ofreciendo servicios precisos y profesionales de impuestos sobre la renta para individuos y pequeñas empresas."
+    features:
+      - "Declaraciones de Impuestos Individuales (Forma 1040)"
+      - "Ingresos de Trabajo por Cuenta Propia"
+      - "Solicitud y Renovación de ITIN"
+      - "Declaraciones Enmendadas"
+      - "Declaraciones de Años Anteriores"
+    cta: "Ver Servicios de Impuestos"
+  
+  notary:
+    title: "Notario Público"
+    description: "Notario Público comisionado de California proporcionando servicios oficiales de notarización para documentos legales, declaraciones juradas y más."
+    features:
+      - "Reconocimientos"
+      - "Juramentos"
+      - "Copias Certificadas"
+      - "Juramentos y Afirmaciones"
+      - "Notario Móvil Disponible"
+    cta: "Más Información"
+  
+  lda:
+    title: "Asistencia de Documentos Legales"
+    description: "Preparación profesional de documentos legales bajo su dirección específica. No somos abogados y no proporcionamos asesoramiento legal."
+    features:
+      - "Divorcio (Disolución)"
+      - "Custodia y Manutención de Hijos"
+      - "Cambio de Nombre"
+      - "Fideicomisos en Vida y Testamentos"
+      - "Órdenes de Restricción"
+    cta: "Ver Servicios de Documentos"
+    
+  admin:
+    title: "Apoyo Administrativo"
+    description: "Apoyo administrativo general y preparación de documentos para individuos y pequeñas empresas."
+    features:
+      - "Mecanografía de Documentos"
+      - "Completar Formularios"
+      - "Documentos de Formación de Empresas"
+      - "Asistencia de Traducción"
+    cta: "Contáctenos"
+
+# Indicadores de Confianza
+trust:
+  section_title: "Por Qué Elegirnos"
+  items:
+    - title: "30+ Años de Experiencia"
+      description: "Sirviendo a la comunidad de Pomona con profesionalismo e integridad"
+    - title: "Licenciado y Afianzado"
+      description: "Completamente registrado con CTEC y la Secretaría de Estado de California"
+    - title: "Servicio Confidencial"
+      description: "Su información personal está protegida y manejada con cuidado"
+    - title: "Apoyo Bilingüe"
+      description: "Se Habla Español - Fluido en inglés y español"
+
+# Página Acerca de
+about:
+  page_title: "Acerca de Nosotros"
+  headline: "Conozca a Yaneth Cisneros"
+  intro: "Propietaria y operadora de Document Assistance, sirviendo a la comunidad del Valle de Pomona por más de tres décadas."
+  bio: |
+    Con más de 30 años de experiencia en preparación de impuestos y asistencia de documentos, 
+    Yaneth Cisneros ha construido una reputación de precisión, profesionalismo y servicio compasivo. 
+    Como Preparadora de Impuestos Registrada con CTEC y Notario Público de California, ella proporciona 
+    apoyo administrativo confiable a individuos y familias en todo el Valle de Pomona.
+  values_title: "Nuestro Compromiso con Usted"
+  values:
+    - title: "Precisión"
+      description: "Cada documento es preparado con meticulosa atención al detalle"
+    - title: "Confidencialidad"
+      description: "Su información personal es manejada con la mayor discreción"
+    - title: "Accesibilidad"
+      description: "Servicios bilingües para servir a nuestra comunidad diversa"
+    - title: "Integridad"
+      description: "Servicio honesto y transparente en el que puede confiar"
+
+# Página de Tarifas
+rates:
+  page_title: "Tarifas y Precios"
+  intro: "Precios transparentes para todos los servicios. Los precios pueden variar según la complejidad."
+  contact_note: "Para cotizaciones personalizadas o situaciones complejas, por favor contáctenos."
+  
+  tax_title: "Preparación de Impuestos sobre la Renta"
+  tax_services:
+    - service: "Forma Corta W-2 con Depósito Directo"
+      price: "$150.00"
+    - service: "Forma Larga (Propietario de Casa)"
+      price: "$175.00"
+    - service: "Ingresos por Intereses (1099-INT)"
+      price: "$30.00"
+    - service: "Propiedad de Alquiler"
+      price: "$200.00"
+    - service: "Crédito Educativo (1098-E/T)"
+      price: "$30.00"
+    - service: "Trabajo por Cuenta Propia (Efectivo/1099-MISC)"
+      price: "$275.00 - $350.00"
+    - service: "Solicitud/Renovación de ITIN"
+      price: "$100.00"
+    - service: "Declaración Enmendada (1040X)"
+      price: "$175.00"
+  
+  notary_title: "Servicios de Notario Público"
+  notary_note: "Tarifas de California reguladas por ley. Llame para tarifas actuales."
+  
+  lda_title: "Preparación de Documentos Legales"
+  lda_disclaimer: "Los precios son solo por preparación de documentos. Las tarifas de presentación son adicionales y se pagan directamente a la corte."
+  lda_services:
+    - service: "Divorcio Simple (Sin hijos, sin propiedad)"
+      price: "$850.00"
+    - service: "Divorcio con Hijos"
+      price: "$1,200.00"
+    - service: "Divorcio con Propiedad"
+      price: "$1,400.00"
+    - service: "Divorcio con Hijos y Propiedad"
+      price: "$1,600.00"
+    - service: "Petición de Custodia"
+      price: "$1,200.00"
+    - service: "Paternidad"
+      price: "$1,200.00"
+    - service: "Solicitud de Orden (RFO)"
+      price: "$650.00"
+    - service: "Acuerdo Estipulado"
+      price: "$600.00"
+    - service: "Escrito MSC / Escrito de Juicio"
+      price: "$450.00"
+    - service: "Respuesta a Petición"
+      price: "$650.00"
+    - service: "Cambio de Nombre"
+      price: "$650.00"
+    - service: "Orden de Restricción"
+      price: "$650.00"
+
+# Página de Contacto
+contact:
+  page_title: "Contáctenos"
+  headline: "Póngase en Contacto"
+  intro: "Programe una consulta o haga una pregunta. Estamos aquí para ayudar."
+  appointment_notice: "Solo con Cita — No se Atiende sin Cita"
+  
+  form:
+    name_label: "Nombre Completo"
+    name_placeholder: "Su nombre completo"
+    email_label: "Correo Electrónico"
+    email_placeholder: "su.correo@ejemplo.com"
+    phone_label: "Número de Teléfono"
+    phone_placeholder: "(000) 000-0000"
+    service_label: "Servicio Necesitado"
+    service_options:
+      - "Preparación de Impuestos"
+      - "Notario Público"
+      - "Asistencia de Documentos Legales"
+      - "Otra Consulta"
+    message_label: "Mensaje"
+    message_placeholder: "Por favor describa con qué necesita asistencia..."
+    submit: "Enviar Consulta"
+    
+  form_disclaimer: "Al enviar este formulario, usted reconoce que está buscando asistencia administrativa o de preparación de documentos. Usted entiende que DOCUMENT ASSISTANCE no es un bufete de abogados y ninguna relación abogado-cliente es creada por esta comunicación."
+
+# Página de Preguntas Frecuentes
+faq:
+  page_title: "Preguntas Frecuentes"
+  
+  questions:
+    - q: "¿Qué es un Asistente de Documentos Legales (LDA)?"
+      a: "Un Asistente de Documentos Legales es un profesional registrado que puede preparar documentos legales bajo su dirección específica. Los LDAs no son abogados y no pueden proporcionar asesoramiento legal, representarlo en la corte o interpretar la ley. Le ayudamos a completar y presentar documentos para asuntos de autorrepresentación (pro per)."
+    
+    - q: "¿Cuál es la diferencia entre un LDA y un abogado?"
+      a: "Un abogado puede proporcionar asesoramiento legal, representarlo en la corte y tomar decisiones legales en su nombre. Un LDA solo puede preparar documentos bajo su dirección y proporcionar información general. Si su asunto es disputado o complejo, puede necesitar un abogado."
+    
+    - q: "¿Qué es CTEC y por qué es importante?"
+      a: "CTEC (Consejo de Educación Tributaria de California) registra y regula a los preparadores de impuestos en California. Usar un preparador registrado con CTEC asegura que ha completado la educación requerida y pasado verificaciones de antecedentes. Nuestro ID de CTEC es verificable en ctec.org."
+    
+    - q: "¿Proporcionan servicios de inmigración?"
+      a: "No. No proporcionamos ningún servicio o documentación relacionada con inmigración. Para asuntos de inmigración, por favor consulte con un abogado de inmigración licenciado o representante acreditado."
+    
+    - q: "¿Ofrecen planes de pago?"
+      a: "Arreglos de pago pueden estar disponibles dependiendo del servicio. Por favor pregunte durante su consulta."
+    
+    - q: "¿Cuánto tiempo toma la preparación de documentos?"
+      a: "Los plazos varían según el tipo de documento y su complejidad. Documentos simples pueden completarse en unos días, mientras que asuntos complejos como el divorcio pueden tomar más tiempo. Le proporcionaremos un plazo estimado durante su consulta."
+    
+    - q: "¿Pueden ayudar si mi caso es disputado?"
+      a: "Para asuntos disputados (donde la otra parte no está de acuerdo), recomendamos encarecidamente consultar con un abogado. Solo podemos preparar documentos para asuntos no disputados donde ambas partes están de acuerdo en los términos."
+
+# Página de Descargos
+disclaimers:
+  page_title: "Descargos Legales"
+  
+  main_disclaimer:
+    title: "Aviso Importante"
+    content: |
+      DOCUMENT ASSISTANCE es un servicio de preparación de documentos legales sin abogado. 
+      No somos un bufete de abogados, y no podemos proporcionar asesoramiento legal, interpretar la ley, 
+      seleccionar formularios para usted o representarlo en la corte.
+      
+      Yaneth Cisneros no es abogada. Ella solo puede proporcionar servicios de autoayuda 
+      bajo su dirección específica.
+  
+  lda_disclaimer:
+    title: "Divulgación de Asistente de Documentos Legales"
+    content: |
+      Como lo requiere el Código de Negocios y Profesiones de California Sección 6408.5:
+      
+      "No soy abogado. Solo puedo proporcionar servicios de autoayuda bajo su dirección específica."
+      
+      Los Asistentes de Documentos Legales están registrados con el secretario del condado y deben mantener 
+      una fianza. Nuestra información de registro se muestra en nuestra oficina y en este sitio web.
+  
+  tax_disclaimer:
+    title: "Divulgación de Preparación de Impuestos"
+    content: |
+      Yaneth Cisneros es una Preparadora de Impuestos Registrada con el Consejo de Educación Tributaria de California (CTEC). 
+      El registro de CTEC no implica respaldo por el estado. Puede verificar el estado de registro 
+      en ctec.org.
+      
+      El asesoramiento fiscal proporcionado se basa en la información que usted suministra y la ley fiscal actual. 
+      No somos responsables de multas o intereses resultantes de información incorrecta 
+      proporcionada a nosotros.
+  
+  notary_disclaimer:
+    title: "Divulgación de Notario Público"
+    content: |
+      Yaneth Cisneros es una Notaria Pública de California comisionada por la Secretaría de Estado.
+      
+      Un Notario Público es un oficial público comisionado por el estado que sirve como testigo imparcial 
+      de la firma de documentos importantes. Los notarios no pueden proporcionar asesoramiento legal 
+      o preparar documentos legales.
+  
+  privacy:
+    title: "Privacidad y Confidencialidad"
+    content: |
+      Tomamos su privacidad en serio. La información personal recopilada se usa solo para 
+      proporcionar los servicios solicitados. No vendemos ni compartimos su información con terceros.
+      
+      Los documentos e información proporcionados a nosotros se mantienen confidenciales y se almacenan de forma segura.
+
+# Pie de Página
+footer:
+  contact_title: "Contáctenos"
+  hours_title: "Horario de Oficina"
+  credentials_title: "Licencias y Registros"
+  
+  weekdays: "Lunes - Viernes"
+  saturday: "Sábado"
+  sunday: "Domingo"
+  by_appointment: "Con Cita"
+  closed: "Cerrado"
+  
+  disclaimer_notice: "AVISO IMPORTANTE:"
+  statutory_disclaimer: "No soy abogado. Solo puedo proporcionar servicios de autoayuda bajo su dirección específica."
+  
+  full_disclaimers: "Descargos Completos"
+  all_rights: "Todos los derechos reservados."
+
+# Elementos UI Comunes
+common:
+  learn_more: "Más Información"
+  view_all: "Ver Todo"
+  back: "Atrás"
+  next: "Siguiente"
+  submit: "Enviar"
+  required: "Requerido"
+  optional: "Opcional"
+  loading: "Cargando..."
+  error: "Ocurrió un error"
+  success: "Éxito"
+  phone: "Teléfono"
+  email: "Correo Electrónico"
+  address: "Dirección"
+  hours: "Horario"

@@ -1,0 +1,227 @@
+<!-- ============================================================================
+     FOOTER - Legal Disclaimers & Credentials
+     COMMENTS 
+     Filename: default.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+
+<!-- Pre-Footer Disclaimer Block -->
+<section class="pre-footer-disclaimer">
+  <div class="container">
+    <div class="disclaimer-box">
+      <i class="ph ph-scales"></i>
+      <p data-lang-en="DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, or represent you in court. We provide self-help services at your specific direction."
+         data-lang-es="DOCUMENT ASSISTANCE es un servicio de preparación de documentos legales sin abogado. No somos un bufete de abogados y no podemos proporcionar asesoramiento legal, interpretar la ley ni representarlo en la corte. Proporcionamos servicios de autoayuda bajo su dirección específica.">
+        DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, or represent you in court. We provide self-help services at your specific direction.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <!-- Footer Top: Logo & Contact -->
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="{{ '/assets/images/logo/logo-128.png' | relative_url }}" 
+             alt="Document Assistance Logo" 
+             class="footer-logo"
+             width="80" 
+             height="80">
+        <div class="footer-brand-text">
+          <span class="footer-brand-name">Document Assistance</span>
+          <span class="footer-brand-tagline" 
+                data-lang-en="Professional Document Preparation"
+                data-lang-es="Preparación Profesional de Documentos">
+            Professional Document Preparation
+          </span>
+        </div>
+      </div>
+      
+      <div class="footer-contact">
+        <h3 data-lang-en="Contact Us" data-lang-es="Contáctenos">Contact Us</h3>
+        <address>
+          <p>
+            <i class="ph ph-map-pin"></i>
+            {{ site.business.address.street }}, {{ site.business.address.suite }}<br>
+            {{ site.business.address.city }}, {{ site.business.address.state }} {{ site.business.address.zip }}
+          </p>
+          <p>
+            <i class="ph ph-phone"></i>
+            <a href="tel:+19096235276">{{ site.business.phone_primary }}</a>
+          </p>
+          <p>
+            <i class="ph ph-phone"></i>
+            <a href="tel:+19092424343">{{ site.business.phone_secondary }}</a>
+          </p>
+          <p>
+            <i class="ph ph-envelope"></i>
+            <a href="mailto:{{ site.business.email }}">{{ site.business.email }}</a>
+          </p>
+        </address>
+        <p class="bilingual-notice">
+          <i class="ph ph-translate"></i>
+          <strong>Se Habla Español</strong>
+        </p>
+      </div>
+      
+      <div class="footer-hours">
+        <h3 data-lang-en="Office Hours" data-lang-es="Horario de Oficina">Office Hours</h3>
+        <ul>
+          <li>
+            <span data-lang-en="Monday - Friday:" data-lang-es="Lunes - Viernes:">Monday - Friday:</span>
+            {{ site.business.hours.weekdays }}
+          </li>
+          <li>
+            <span data-lang-en="Saturday:" data-lang-es="Sábado:">Saturday:</span>
+            <span data-lang-en="{{ site.business.hours.saturday }}" data-lang-es="Con Cita">{{ site.business.hours.saturday }}</span>
+          </li>
+          <li>
+            <span data-lang-en="Sunday:" data-lang-es="Domingo:">Sunday:</span>
+            <span data-lang-en="{{ site.business.hours.sunday }}" data-lang-es="Cerrado">{{ site.business.hours.sunday }}</span>
+          </li>
+        </ul>
+        <p class="appointment-notice">
+          <i class="ph ph-calendar-check"></i>
+          <span data-lang-en="By Appointment Only — No Walk-Ins"
+                data-lang-es="Solo con Cita — No se Atiende sin Cita">
+            By Appointment Only — No Walk-Ins
+          </span>
+        </p>
+      </div>
+    </div>
+    
+    <!-- Footer Middle: Credentials & Registrations -->
+    <div class="footer-credentials">
+      <h3 data-lang-en="Licenses & Registrations" data-lang-es="Licencias y Registros">Licenses & Registrations</h3>
+      
+      <div class="credentials-grid">
+        <!-- Business License -->
+        <div class="credential-item">
+          <i class="ph ph-buildings"></i>
+          <div class="credential-details">
+            <span class="credential-title" 
+                  data-lang-en="City of Pomona Business License"
+                  data-lang-es="Licencia Comercial de la Ciudad de Pomona">
+              City of Pomona Business License
+            </span>
+            <span class="credential-number">#{{ site.business.credentials.business_license.number }}</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Expires:" data-lang-es="Vence:">Expires:</span> 
+              {{ site.business.credentials.business_license.expiration_date }}
+            </span>
+          </div>
+        </div>
+        
+        <!-- Notary Public -->
+        <div class="credential-item">
+          <i class="ph ph-stamp"></i>
+          <div class="credential-details">
+            <span class="credential-title"
+                  data-lang-en="California Notary Public"
+                  data-lang-es="Notario Público de California">
+              California Notary Public
+            </span>
+            <span class="credential-number">Commission #{{ site.business.credentials.notary.commission_number }}</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Expires:" data-lang-es="Vence:">Expires:</span> 
+              {{ site.business.credentials.notary.expiration }}
+            </span>
+          </div>
+        </div>
+        
+        <!-- CTEC Tax Preparer -->
+        <div class="credential-item">
+          <i class="ph ph-calculator"></i>
+          <div class="credential-details">
+            <span class="credential-title"
+                  data-lang-en="CTEC Registered Tax Preparer"
+                  data-lang-es="Preparador de Impuestos Registrado CTEC">
+              CTEC Registered Tax Preparer
+            </span>
+            <span class="credential-number">CTEC ID: {{ site.business.credentials.ctec.id }}</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Valid thru:" data-lang-es="Válido hasta:">Valid thru:</span> 
+              {{ site.business.credentials.ctec.valid_thru }}
+            </span>
+            <a href="https://ctec.org" target="_blank" rel="noopener" class="verify-link">
+              <span data-lang-en="Verify at CTEC.org" data-lang-es="Verificar en CTEC.org">Verify at CTEC.org</span>
+              <i class="ph ph-arrow-square-out"></i>
+            </a>
+          </div>
+        </div>
+        
+        {% if site.enable_lda_services %}
+        <!-- LDA Registration (Only visible when enabled) -->
+        <div class="credential-item credential-lda">
+          <i class="ph ph-files"></i>
+          <div class="credential-details">
+            <span class="credential-title"
+                  data-lang-en="Legal Document Assistant"
+                  data-lang-es="Asistente de Documentos Legales">
+              Legal Document Assistant
+            </span>
+            {% if site.business.credentials.lda.registration_number != "" %}
+            <span class="credential-number">LDA #{{ site.business.credentials.lda.registration_number }}</span>
+            <span class="credential-county">{{ site.business.credentials.lda.county }} County</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Expires:" data-lang-es="Vence:">Expires:</span> 
+              {{ site.business.credentials.lda.expiration }}
+            </span>
+            <span class="credential-bond">
+              <span data-lang-en="Bonded:" data-lang-es="Fianza:">Bonded:</span> 
+              {{ site.business.credentials.lda.bond_amount }}
+            </span>
+            {% else %}
+            <span class="credential-status credential-pending">
+              <span data-lang-en="Registration Pending" data-lang-es="Registro Pendiente">Registration Pending</span>
+            </span>
+            {% endif %}
+          </div>
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    
+    <!-- Footer Bottom: Legal Disclaimer & Copyright -->
+    <div class="footer-bottom">
+      <div class="legal-disclaimer">
+        <p class="statutory-disclaimer">
+          <strong data-lang-en="IMPORTANT NOTICE:" data-lang-es="AVISO IMPORTANTE:">IMPORTANT NOTICE:</strong>
+          <span data-lang-en="I am not an attorney. I can only provide self-help services at your specific direction."
+                data-lang-es="No soy abogado. Solo puedo proporcionar servicios de autoayuda bajo su dirección específica.">
+            I am not an attorney. I can only provide self-help services at your specific direction.
+          </span>
+        </p>
+      </div>
+      
+      <div class="footer-links">
+        <a href="{{ '/disclaimers' | relative_url }}" 
+           data-lang-en="Full Disclaimers"
+           data-lang-es="Descargos Completos">Full Disclaimers</a>
+        <span class="divider">|</span>
+        <a href="{{ '/faq' | relative_url }}" 
+           data-lang-en="FAQ"
+           data-lang-es="Preguntas Frecuentes">FAQ</a>
+      </div>
+      
+      <div class="copyright">
+        <p>
+          © {{ 'now' | date: "%Y" }} {{ site.business.name }}. 
+          <span data-lang-en="All rights reserved."
+                data-lang-es="Todos los derechos reservados.">
+            All rights reserved.
+          </span>
+        </p>
+        <p class="owner-credit">
+          {{ site.business.owner }} — {{ site.business.address.city }}, {{ site.business.address.state }}
+        </p>
+      </div>
+    </div>
+    
+  </div>
+</footer>

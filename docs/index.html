@@ -1,0 +1,234 @@
+---
+layout: default
+title: Home
+description: Professional Tax Preparation, Notary Public, and Document Assistance services in Pomona, California. CTEC Registered. Se Habla Español.
+---
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <span class="hero-badge">
+        <i class="ph ph-seal-check"></i>
+        <span data-lang-en="Serving Pomona Since 1990+" 
+              data-lang-es="Sirviendo a Pomona Desde 1990+">Serving Pomona Since 1990+</span>
+      </span>
+      
+      <h1 class="hero-title" 
+          data-lang-en="Professional Document Preparation You Can Trust"
+          data-lang-es="Preparación Profesional de Documentos en la que Puede Confiar">
+        Professional Document Preparation You Can Trust
+      </h1>
+      
+      <p class="hero-subtitle"
+         data-lang-en="Expert Tax Preparation, Notary Public, and Administrative Support Services"
+         data-lang-es="Servicios Expertos de Preparación de Impuestos, Notario Público y Apoyo Administrativo">
+        Expert Tax Preparation, Notary Public, and Administrative Support Services
+      </p>
+      
+      <div class="hero-cta-group">
+        <a href="{{ '/contact' | relative_url }}" class="btn btn-primary btn-lg">
+          <i class="ph ph-calendar-check"></i>
+          <span data-lang-en="Schedule Consultation" 
+                data-lang-es="Programar Consulta">Schedule Consultation</span>
+        </a>
+        <a href="{{ '/services' | relative_url }}" class="btn btn-secondary btn-lg">
+          <i class="ph ph-list-checks"></i>
+          <span data-lang-en="View Services" 
+                data-lang-es="Ver Servicios">View Services</span>
+        </a>
+      </div>
+      
+      <div class="hero-phone">
+        <i class="ph ph-phone-call"></i>
+        <div>
+          <span data-lang-en="Call Now:" data-lang-es="Llame Ahora:">Call Now:</span>
+          <a href="tel:+19096235276">{{ site.business.phone_primary }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Services Preview Section -->
+<section class="services-section">
+  <div class="container">
+    <header class="section-header">
+      <h2 class="section-title"
+          data-lang-en="Our Services"
+          data-lang-es="Nuestros Servicios">Our Services</h2>
+      <p class="section-subtitle"
+         data-lang-en="Professional document preparation and administrative support services"
+         data-lang-es="Servicios profesionales de preparación de documentos y apoyo administrativo">
+        Professional document preparation and administrative support services
+      </p>
+    </header>
+    
+    <div class="services-grid">
+      <!-- Tax Preparation Card -->
+      <article class="service-card">
+        <div class="service-icon">
+          <i class="ph-duotone ph-calculator"></i>
+        </div>
+        <h3 class="service-card-title"
+            data-lang-en="Tax Preparation"
+            data-lang-es="Preparación de Impuestos">Tax Preparation</h3>
+        <p class="service-card-description"
+           data-lang-en="CTEC registered tax preparer offering accurate and professional income tax services for individuals and small businesses."
+           data-lang-es="Preparador de impuestos registrado con CTEC ofreciendo servicios precisos y profesionales de impuestos sobre la renta.">
+          CTEC registered tax preparer offering accurate and professional income tax services for individuals and small businesses.
+        </p>
+        <a href="{{ '/services' | relative_url }}#tax" class="btn btn-outline">
+          <span data-lang-en="Learn More" data-lang-es="Más Información">Learn More</span>
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </article>
+      
+      <!-- Notary Public Card -->
+      <article class="service-card">
+        <div class="service-icon">
+          <i class="ph-duotone ph-stamp"></i>
+        </div>
+        <h3 class="service-card-title"
+            data-lang-en="Notary Public"
+            data-lang-es="Notario Público">Notary Public</h3>
+        <p class="service-card-description"
+           data-lang-en="California commissioned Notary Public providing official notarization services for legal documents, affidavits, and more."
+           data-lang-es="Notario Público comisionado de California proporcionando servicios oficiales de notarización para documentos legales.">
+          California commissioned Notary Public providing official notarization services for legal documents, affidavits, and more.
+        </p>
+        <a href="{{ '/services' | relative_url }}#notary" class="btn btn-outline">
+          <span data-lang-en="Learn More" data-lang-es="Más Información">Learn More</span>
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </article>
+      
+      {% if site.enable_lda_services %}
+      <!-- Legal Document Assistance Card (Conditional) -->
+      <article class="service-card lda-only">
+        <div class="service-icon">
+          <i class="ph-duotone ph-files"></i>
+        </div>
+        <h3 class="service-card-title"
+            data-lang-en="Document Assistance"
+            data-lang-es="Asistencia de Documentos">Document Assistance</h3>
+        <p class="service-card-description"
+           data-lang-en="Professional preparation of legal documents at your specific direction. We are not attorneys and do not provide legal advice."
+           data-lang-es="Preparación profesional de documentos legales bajo su dirección específica. No somos abogados.">
+          Professional preparation of legal documents at your specific direction. We are not attorneys and do not provide legal advice.
+        </p>
+        <a href="{{ '/services' | relative_url }}#lda" class="btn btn-outline">
+          <span data-lang-en="Learn More" data-lang-es="Más Información">Learn More</span>
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </article>
+      {% endif %}
+      
+      <!-- Administrative Support Card -->
+      <article class="service-card">
+        <div class="service-icon">
+          <i class="ph-duotone ph-clipboard-text"></i>
+        </div>
+        <h3 class="service-card-title"
+            data-lang-en="Administrative Support"
+            data-lang-es="Apoyo Administrativo">Administrative Support</h3>
+        <p class="service-card-description"
+           data-lang-en="General administrative and document preparation support for individuals and small businesses."
+           data-lang-es="Apoyo administrativo general y preparación de documentos para individuos y pequeñas empresas.">
+          General administrative and document preparation support for individuals and small businesses.
+        </p>
+        <a href="{{ '/contact' | relative_url }}" class="btn btn-outline">
+          <span data-lang-en="Contact Us" data-lang-es="Contáctenos">Contact Us</span>
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- Trust Indicators Section -->
+<section class="trust-section">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="ph ph-medal"></i>
+        </div>
+        <h3 class="trust-title"
+            data-lang-en="30+ Years Experience"
+            data-lang-es="30+ Años de Experiencia">30+ Years Experience</h3>
+        <p class="trust-description"
+           data-lang-en="Serving the Pomona community with professionalism and integrity"
+           data-lang-es="Sirviendo a la comunidad de Pomona con profesionalismo e integridad">
+          Serving the Pomona community with professionalism and integrity
+        </p>
+      </div>
+      
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="ph ph-shield-check"></i>
+        </div>
+        <h3 class="trust-title"
+            data-lang-en="Licensed & Bonded"
+            data-lang-es="Licenciado y Afianzado">Licensed & Bonded</h3>
+        <p class="trust-description"
+           data-lang-en="Fully registered with CTEC and California Secretary of State"
+           data-lang-es="Completamente registrado con CTEC y la Secretaría de Estado">
+          Fully registered with CTEC and California Secretary of State
+        </p>
+      </div>
+      
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="ph ph-lock-key"></i>
+        </div>
+        <h3 class="trust-title"
+            data-lang-en="Confidential Service"
+            data-lang-es="Servicio Confidencial">Confidential Service</h3>
+        <p class="trust-description"
+           data-lang-en="Your personal information is protected and handled with care"
+           data-lang-es="Su información personal está protegida y manejada con cuidado">
+          Your personal information is protected and handled with care
+        </p>
+      </div>
+      
+      <div class="trust-item">
+        <div class="trust-icon">
+          <i class="ph ph-translate"></i>
+        </div>
+        <h3 class="trust-title"
+            data-lang-en="Se Habla Español"
+            data-lang-es="Se Habla Español">Se Habla Español</h3>
+        <p class="trust-description"
+           data-lang-en="Fluent in English and Spanish to serve our diverse community"
+           data-lang-es="Fluido en inglés y español para servir a nuestra comunidad diversa">
+          Fluent in English and Spanish to serve our diverse community
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action Section -->
+<section class="cta-section" style="padding: var(--space-16) 0; background: var(--color-light);">
+  <div class="container" style="text-align: center;">
+    <h2 data-lang-en="Ready to Get Started?"
+        data-lang-es="¿Listo para Comenzar?">Ready to Get Started?</h2>
+    <p style="font-size: var(--text-lg); color: var(--color-neutral); margin-bottom: var(--space-8); max-width: 600px; margin-left: auto; margin-right: auto;"
+       data-lang-en="Schedule a consultation today. By appointment only."
+       data-lang-es="Programe una consulta hoy. Solo con cita.">
+      Schedule a consultation today. By appointment only.
+    </p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-4);">
+      <a href="{{ '/contact' | relative_url }}" class="btn btn-primary btn-lg">
+        <i class="ph ph-calendar-check"></i>
+        <span data-lang-en="Schedule Appointment" 
+              data-lang-es="Programar Cita">Schedule Appointment</span>
+      </a>
+      <a href="tel:+19096235276" class="btn btn-outline btn-lg">
+        <i class="ph ph-phone"></i>
+        <span>{{ site.business.phone_primary }}</span>
+      </a>
+    </div>
+  </div>
+</section>

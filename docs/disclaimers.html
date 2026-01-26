@@ -1,0 +1,141 @@
+---
+layout: default
+title: Legal Disclaimers
+description: Legal disclaimers and disclosures for Document Assistance tax preparation, notary public, and document services in Pomona, CA.
+---
+
+<!-- Disclaimers Header -->
+<section style="padding: var(--space-16) 0; background: var(--color-primary);">
+  <div class="container" style="text-align: center;">
+    <h1 style="color: var(--color-white);"
+        data-lang-en="Legal Disclaimers"
+        data-lang-es="Descargos Legales">Legal Disclaimers</h1>
+  </div>
+</section>
+
+<!-- Disclaimers Content -->
+<section style="padding: var(--space-16) 0;">
+  <div class="container">
+    <div style="max-width: 800px; margin: 0 auto;">
+      
+      <!-- Main Disclaimer -->
+      <div style="padding: var(--space-8); background: rgba(218, 165, 32, 0.1); border: 2px solid var(--color-accent); border-radius: var(--radius-lg); margin-bottom: var(--space-10);">
+        <h2 style="display: flex; align-items: center; gap: var(--space-3);">
+          <i class="ph ph-warning" style="color: var(--color-accent);"></i>
+          <span data-lang-en="Important Notice" data-lang-es="Aviso Importante">Important Notice</span>
+        </h2>
+        <p style="font-size: var(--text-lg); margin-bottom: var(--space-4);"
+           data-lang-en="DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, select forms for you, or represent you in court."
+           data-lang-es="DOCUMENT ASSISTANCE es un servicio de preparación de documentos legales sin abogado. No somos un bufete de abogados, y no podemos proporcionar asesoramiento legal, interpretar la ley, seleccionar formularios para usted, o representarlo en la corte.">
+          DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, select forms for you, or represent you in court.
+        </p>
+        <p style="font-size: var(--text-lg); font-weight: 700; margin: 0; padding: var(--space-4); background: var(--color-white); border-radius: var(--radius-md);"
+           data-lang-en="Yaneth Cisneros is not an attorney. She can only provide self-help services at your specific direction."
+           data-lang-es="Yaneth Cisneros no es abogada. Ella solo puede proporcionar servicios de autoayuda bajo su dirección específica.">
+          Yaneth Cisneros is not an attorney. She can only provide self-help services at your specific direction.
+        </p>
+      </div>
+      
+      {% if site.enable_lda_services %}
+      <!-- LDA Disclosure -->
+      <div style="margin-bottom: var(--space-10);">
+        <h2 style="display: flex; align-items: center; gap: var(--space-3);">
+          <i class="ph ph-files" style="color: var(--color-secondary);"></i>
+          <span data-lang-en="Legal Document Assistant Disclosure" data-lang-es="Divulgación de Asistente de Documentos Legales">Legal Document Assistant Disclosure</span>
+        </h2>
+        <p data-lang-en="As required by California Business and Professions Code Section 6408.5:"
+           data-lang-es="Como lo requiere el Código de Negocios y Profesiones de California Sección 6408.5:">
+          As required by California Business and Professions Code Section 6408.5:
+        </p>
+        <blockquote style="padding: var(--space-6); background: var(--color-light); border-left: 4px solid var(--color-primary); margin: var(--space-6) 0; font-style: italic; font-size: var(--text-lg);">
+          "I am not an attorney. I can only provide self-help services at your specific direction."
+        </blockquote>
+        <p data-lang-en="Legal Document Assistants are registered with the county clerk and must maintain a surety bond. Our registration information is displayed in our office and on this website."
+           data-lang-es="Los Asistentes de Documentos Legales están registrados con el secretario del condado y deben mantener una fianza. Nuestra información de registro se muestra en nuestra oficina y en este sitio web.">
+          Legal Document Assistants are registered with the county clerk and must maintain a surety bond. Our registration information is displayed in our office and on this website.
+        </p>
+        <p data-lang-en="We can only assist with uncontested matters where you are representing yourself (pro per). For contested matters, complex legal issues, or if you need legal advice, please consult with a licensed attorney."
+           data-lang-es="Solo podemos asistir con asuntos no disputados donde usted se representa a sí mismo (pro per). Para asuntos disputados, problemas legales complejos, o si necesita asesoramiento legal, por favor consulte con un abogado licenciado.">
+          We can only assist with uncontested matters where you are representing yourself (pro per). For contested matters, complex legal issues, or if you need legal advice, please consult with a licensed attorney.
+        </p>
+      </div>
+      {% endif %}
+      
+      <!-- Tax Disclosure -->
+      <div style="margin-bottom: var(--space-10);">
+        <h2 style="display: flex; align-items: center; gap: var(--space-3);">
+          <i class="ph ph-calculator" style="color: var(--color-secondary);"></i>
+          <span data-lang-en="Tax Preparation Disclosure" data-lang-es="Divulgación de Preparación de Impuestos">Tax Preparation Disclosure</span>
+        </h2>
+        <p data-lang-en="Yaneth Cisneros is a California Tax Education Council (CTEC) Registered Tax Preparer."
+           data-lang-es="Yaneth Cisneros es una Preparadora de Impuestos Registrada con el Consejo de Educación Tributaria de California (CTEC).">
+          Yaneth Cisneros is a California Tax Education Council (CTEC) Registered Tax Preparer.
+        </p>
+        <ul style="list-style: none; padding: var(--space-4); background: var(--color-light); border-radius: var(--radius-md);">
+          <li style="margin-bottom: var(--space-2);"><strong>CTEC ID:</strong> {{ site.business.credentials.ctec.id }}</li>
+          <li style="margin-bottom: var(--space-2);"><strong data-lang-en="Valid Through:" data-lang-es="Válido Hasta:">Valid Through:</strong> {{ site.business.credentials.ctec.valid_thru }}</li>
+          <li><strong data-lang-en="Bond:" data-lang-es="Fianza:">Bond:</strong> {{ site.business.credentials.ctec.bond_company }} - {{ site.business.credentials.ctec.bond_amount }}</li>
+        </ul>
+        <p data-lang-en="CTEC registration does not imply endorsement by the state. You may verify registration status at"
+           data-lang-es="El registro de CTEC no implica respaldo por el estado. Puede verificar el estado de registro en">
+          CTEC registration does not imply endorsement by the state. You may verify registration status at
+          <a href="https://ctec.org" target="_blank" rel="noopener">ctec.org</a>.
+        </p>
+        <p data-lang-en="Tax advice provided is based on information you supply and current tax law. We are not responsible for penalties or interest resulting from incorrect or incomplete information provided to us."
+           data-lang-es="El asesoramiento fiscal proporcionado se basa en la información que usted suministra y la ley fiscal actual. No somos responsables de multas o intereses resultantes de información incorrecta o incompleta proporcionada a nosotros.">
+          Tax advice provided is based on information you supply and current tax law. We are not responsible for penalties or interest resulting from incorrect or incomplete information provided to us.
+        </p>
+      </div>
+      
+      <!-- Notary Disclosure -->
+      <div style="margin-bottom: var(--space-10);">
+        <h2 style="display: flex; align-items: center; gap: var(--space-3);">
+          <i class="ph ph-stamp" style="color: var(--color-secondary);"></i>
+          <span data-lang-en="Notary Public Disclosure" data-lang-es="Divulgación de Notario Público">Notary Public Disclosure</span>
+        </h2>
+        <p data-lang-en="Yaneth Cisneros is a California Notary Public commissioned by the Secretary of State."
+           data-lang-es="Yaneth Cisneros es una Notaria Pública de California comisionada por la Secretaría de Estado.">
+          Yaneth Cisneros is a California Notary Public commissioned by the Secretary of State.
+        </p>
+        <ul style="list-style: none; padding: var(--space-4); background: var(--color-light); border-radius: var(--radius-md);">
+          <li style="margin-bottom: var(--space-2);"><strong data-lang-en="Commission Number:" data-lang-es="Número de Comisión:">Commission Number:</strong> {{ site.business.credentials.notary.commission_number }}</li>
+          <li><strong data-lang-en="Expires:" data-lang-es="Vence:">Expires:</strong> {{ site.business.credentials.notary.expiration }}</li>
+        </ul>
+        <p data-lang-en="A Notary Public is a state-commissioned public officer who serves as an impartial witness to the signing of important documents. Notaries cannot provide legal advice or prepare legal documents."
+           data-lang-es="Un Notario Público es un oficial público comisionado por el estado que sirve como testigo imparcial de la firma de documentos importantes. Los notarios no pueden proporcionar asesoramiento legal o preparar documentos legales.">
+          A Notary Public is a state-commissioned public officer who serves as an impartial witness to the signing of important documents. Notaries cannot provide legal advice or prepare legal documents.
+        </p>
+      </div>
+      
+      <!-- Privacy -->
+      <div style="margin-bottom: var(--space-10);">
+        <h2 style="display: flex; align-items: center; gap: var(--space-3);">
+          <i class="ph ph-lock" style="color: var(--color-secondary);"></i>
+          <span data-lang-en="Privacy & Confidentiality" data-lang-es="Privacidad y Confidencialidad">Privacy & Confidentiality</span>
+        </h2>
+        <p data-lang-en="We take your privacy seriously. Personal information collected is used only for providing requested services. We do not sell or share your information with third parties."
+           data-lang-es="Tomamos su privacidad en serio. La información personal recopilada se usa solo para proporcionar los servicios solicitados. No vendemos ni compartimos su información con terceros.">
+          We take your privacy seriously. Personal information collected is used only for providing requested services. We do not sell or share your information with third parties.
+        </p>
+        <p data-lang-en="Documents and information provided to us are kept confidential and stored securely in accordance with applicable laws and professional standards."
+           data-lang-es="Los documentos e información proporcionados a nosotros se mantienen confidenciales y se almacenan de forma segura de acuerdo con las leyes aplicables y estándares profesionales.">
+          Documents and information provided to us are kept confidential and stored securely in accordance with applicable laws and professional standards.
+        </p>
+      </div>
+      
+      <!-- Immigration Notice -->
+      <div style="padding: var(--space-6); background: rgba(239, 68, 68, 0.1); border: 2px solid #dc2626; border-radius: var(--radius-lg);">
+        <h2 style="display: flex; align-items: center; gap: var(--space-3); color: #dc2626;">
+          <i class="ph ph-prohibit"></i>
+          <span data-lang-en="Immigration Services" data-lang-es="Servicios de Inmigración">Immigration Services</span>
+        </h2>
+        <p style="margin: 0; font-weight: 600;"
+           data-lang-en="We do NOT provide any immigration-related services or documentation. For immigration matters, please consult with a licensed immigration attorney or DOJ-accredited representative."
+           data-lang-es="NO proporcionamos ningún servicio o documentación relacionada con inmigración. Para asuntos de inmigración, por favor consulte con un abogado de inmigración licenciado o representante acreditado por el DOJ.">
+          We do NOT provide any immigration-related services or documentation. For immigration matters, please consult with a licensed immigration attorney or DOJ-accredited representative.
+        </p>
+      </div>
+      
+    </div>
+  </div>
+</section>
