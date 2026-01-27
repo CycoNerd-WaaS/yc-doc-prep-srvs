@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+    COMMENTS 
+    Filename: default.html
+    Created:  2026-01-25
+    Updated:  2026-01-25
+    Author:   CycoNerd
+    Client:   Yaneth Cisneros
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>FAQ | Document Assistance</title>
+  <meta name="description" content="Frequently asked questions about tax preparation, notary public, and legal document assistance services in Pomona, CA.">
+  <meta name="keywords" content="tax preparation, notary public, document assistance, Pomona CA, CTEC, legal documents, divorce papers, income tax">
+  <meta name="author" content="Yaneth Cisneros">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/faq.html">
+  <meta property="og:title" content="FAQ | Document Assistance">
+  <meta property="og:description" content="Frequently asked questions about tax preparation, notary public, and legal document assistance services in Pomona, CA.">
+  <meta property="og:image" content="http://localhost:4000/assets/images/logo/Logo-512.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="FAQ | Document Assistance">
+  <meta property="twitter:description" content="Frequently asked questions about tax preparation, notary public, and legal document assistance services in Pomona, CA.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/Logo-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/Logo-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/Logo-180.png">
+  
+  <!-- Google Fonts - Professional serif + humanist sans-serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="http://localhost:4000/faq.html">
+  
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '');
+  </script>
+  
+</head>
+<body class="page-faq.html" data-lang="en">
+  
+  <!-- Skip to main content (Accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Header -->
+  <!-- ============================================================================
+     HEADER - Navigation & Language Toggle
+     COMMENTS 
+     Filename: default.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+<header class="site-header">
+  <div class="header-container">
+    
+    <!-- Logo & Business Name -->
+    <a href="/" class="Logo-link" aria-label="Document Assistance Home">
+      <img src="/assets/images/logo/Logo-64.png" 
+           alt="Document Assistance Logo" 
+           class="Logo-img"
+           width="48" 
+           height="48">
+      <span class="Logo-text">
+        <span class="Logo-name">Document Assistance</span>
+        <span class="Logo-tagline" data-lang-en="Tax • Notary • Documents" data-lang-es="Impuestos • Notario • Documentos">Tax • Notary • Documents</span>
+      </span>
+    </a>
+    
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" 
+            aria-label="Toggle navigation menu" 
+            aria-expanded="false"
+            aria-controls="main-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    
+    <!-- Main Navigation -->
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/" 
+             class="nav-link "
+             data-lang-en="Home"
+             data-lang-es="Inicio">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/about" 
+             class="nav-link "
+             data-lang-en="About"
+             data-lang-es="Acerca de">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/services" 
+             class="nav-link "
+             data-lang-en="Services"
+             data-lang-es="Servicios">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="/rates" 
+             class="nav-link "
+             data-lang-en="Rates"
+             data-lang-es="Tarifas">Rates</a>
+        </li>
+        <li class="nav-item">
+          <a href="/faq" 
+             class="nav-link active"
+             data-lang-en="FAQ"
+             data-lang-es="Preguntas">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" 
+             class="nav-link nav-link-cta "
+             data-lang-en="Contact"
+             data-lang-es="Contacto">Contact</a>
+        </li>
+      </ul>
+      
+      <!-- Language Toggle -->
+      <div class="language-toggle">
+        <button class="lang-btn" 
+                data-lang="en" 
+                aria-label="Switch to English"
+                aria-pressed="true">
+          EN
+        </button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" 
+                data-lang="es" 
+                aria-label="Cambiar a Español"
+                aria-pressed="false">
+          ES
+        </button>
+      </div>
+    </nav>
+    
+  </div>
+</header>
+
+<!-- Disclaimer Strip (Always Visible) -->
+<div class="disclaimer-strip">
+  <div class="disclaimer-strip-content">
+    <i class="ph ph-info"></i>
+    <span data-lang-en="Not a law firm. We do not provide legal advice."
+          data-lang-es="No somos un bufete de abogados. No proporcionamos asesoramiento legal.">
+      Not a law firm. We do not provide legal advice.
+    </span>
+  </div>
+</div>
+
+  
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- ============================================================================
+     COMMENTS 
+     Filename: faq.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+
+<!-- FAQ Header -->
+<section style="padding: var(--space-16) 0; background: var(--color-primary);">
+  <div class="container" style="text-align: center;">
+    <h1 style="color: var(--color-white);"
+        data-lang-en="Frequently Asked Questions"
+        data-lang-es="Preguntas Frecuentes">Frequently Asked Questions</h1>
+  </div>
+</section>
+
+<!-- FAQ Content -->
+<section class="faq-section">
+  <div class="container">
+    <div class="faq-list">
+      
+      <!-- General Questions -->
+      <h2 style="margin-bottom: var(--space-6);"
+          data-lang-en="General Questions"
+          data-lang-es="Preguntas Generales">General Questions</h2>
+      
+      <div class="faq-item">
+        <button class="faq-question" type="button">
+          <span data-lang-en="Do I need an appointment?"
+                data-lang-es="¿Necesito una cita?">Do I need an appointment?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-en="Yes. We operate by appointment only. No walk-ins. Please call or use our contact form to schedule a consultation."
+             data-lang-es="Sí. Operamos solo con cita. No se atiende sin cita. Por favor llame o use nuestro formulario de contacto para programar una consulta.">
+            Yes. We operate by appointment only. No walk-ins. Please call or use our contact form to schedule a consultation.
+          </p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" type="button">
+          <span data-lang-en="Do you speak Spanish?"
+                data-lang-es="¿Hablan español?">Do you speak Spanish?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-en="Yes! Se Habla Español. We are fully bilingual and can assist you in English or Spanish."
+             data-lang-es="¡Sí! Se Habla Español. Somos completamente bilingües y podemos asistirle en inglés o español.">
+            Yes! Se Habla Español. We are fully bilingual and can assist you in English or Spanish.
+          </p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" type="button">
+          <span data-lang-en="Do you offer payment plans?"
+                data-lang-es="¿Ofrecen planes de pago?">Do you offer payment plans?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-en="Payment arrangements may be available depending on the service. Please inquire during your consultation."
+             data-lang-es="Arreglos de pago pueden estar disponibles dependiendo del servicio. Por favor pregunte durante su consulta.">
+            Payment arrangements may be available depending on the service. Please inquire during your consultation.
+          </p>
+        </div>
+      </div>
+      
+      <!-- Tax Questions -->
+      <h2 style="margin-top: var(--space-12); margin-bottom: var(--space-6);"
+          data-lang-en="Tax Preparation"
+          data-lang-es="Preparación de Impuestos">Tax Preparation</h2>
+      
+      <div class="faq-item">
+        <button class="faq-question" type="button">
+          <span data-lang-en="What is CTEC and why does it matter?"
+                data-lang-es="¿Qué es CTEC y por qué es importante?">What is CTEC and why does it matter?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-en="CTEC (California Tax Education Council) registers and regulates tax preparers in California. Using a CTEC-registered preparer ensures they've completed required education and passed background checks. Our CTEC ID is verifiable at ctec.org."
+             data-lang-es="CTEC (Consejo de Educación Tributaria de California) registra y regula a los preparadores de impuestos en California. Usar un preparador registrado con CTEC asegura que ha completado la educación requerida y pasado verificaciones de antecedentes.">
+            CTEC (California Tax Education Council) registers and regulates tax preparers in California. Using a CTEC-registered preparer ensures they've completed required education and passed background checks. Our CTEC ID is verifiable at ctec.org.
+          </p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <button class="faq-question" type="button">
+          <span data-lang-en="What documents do I need to bring for my tax appointment?"
+                data-lang-es="¿Qué documentos necesito traer para mi cita de impuestos?">What documents do I need to bring for my tax appointment?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-en="Bring your W-2s, 1099s, Social Security cards for all family members, photo ID, last year's tax return, and any other income or deduction documents. We'll let you know if we need anything else."
+             data-lang-es="Traiga sus W-2s, 1099s, tarjetas de Seguro Social para todos los miembros de la familia, identificación con foto, la declaración del año pasado, y cualquier otro documento de ingresos o deducciones.">
+            Bring your W-2s, 1099s, Social Security cards for all family members, photo ID, last year's tax return, and any other income or deduction documents. We'll let you know if we need anything else.
+          </p>
+        </div>
+      </div>
+      
+      
+      
+      <!-- Immigration Question -->
+      <h2 style="margin-top: var(--space-12); margin-bottom: var(--space-6);"
+          data-lang-en="Important Notice"
+          data-lang-es="Aviso Importante">Important Notice</h2>
+      
+      <div class="faq-item">
+        <button class="faq-question" type="button">
+          <span data-lang-en="Do you provide immigration services?"
+                data-lang-es="¿Proporcionan servicios de inmigración?">Do you provide immigration services?</span>
+          <i class="ph ph-caret-down"></i>
+        </button>
+        <div class="faq-answer">
+          <p data-lang-en="No. We do not provide any immigration-related services or documentation. For immigration matters, please consult with a licensed immigration attorney or accredited representative."
+             data-lang-es="No. No proporcionamos ningún servicio o documentación relacionada con inmigración. Para asuntos de inmigración, por favor consulte con un abogado de inmigración licenciado o representante acreditado.">
+            <strong>No.</strong> We do not provide any immigration-related services or documentation. For immigration matters, please consult with a licensed immigration attorney or accredited representative.
+          </p>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- CTA -->
+    <div style="text-align: center; margin-top: var(--space-12); padding: var(--space-8); background: var(--color-white); border-radius: var(--radius-lg);">
+      <h3 data-lang-en="Have More Questions?" data-lang-es="¿Tiene Más Preguntas?">Have More Questions?</h3>
+      <p data-lang-en="Contact us to discuss your specific needs." data-lang-es="Contáctenos para discutir sus necesidades específicas.">Contact us to discuss your specific needs.</p>
+      <a href="/contact" class="btn btn-primary">
+        <i class="ph ph-chat-circle"></i>
+        <span data-lang-en="Contact Us" data-lang-es="Contáctenos">Contact Us</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+  </main>
+  
+  <!-- Footer -->
+  <!-- ============================================================================
+     FOOTER - Legal Disclaimers & Credentials
+     COMMENTS 
+     Filename: default.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+
+<!-- Pre-Footer Disclaimer Block -->
+<section class="pre-footer-disclaimer">
+  <div class="container">
+    <div class="disclaimer-box">
+      <i class="ph ph-scales"></i>
+      <p data-lang-en="DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, or represent you in court. We provide self-help services at your specific direction."
+         data-lang-es="DOCUMENT ASSISTANCE es un servicio de preparación de documentos legales sin abogado. No somos un bufete de abogados y no podemos proporcionar asesoramiento legal, interpretar la ley ni representarlo en la corte. Proporcionamos servicios de autoayuda bajo su dirección específica.">
+        DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, or represent you in court. We provide self-help services at your specific direction.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <!-- Footer Top: Logo & Contact -->
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="/assets/images/logo/Logo-128.png" 
+             alt="Document Assistance Logo" 
+             class="footer-logo"
+             width="80" 
+             height="80">
+        <div class="footer-brand-text">
+          <span class="footer-brand-name">Document Assistance</span>
+          <span class="footer-brand-tagline" 
+                data-lang-en="Professional Document Preparation"
+                data-lang-es="Preparación Profesional de Documentos">
+            Professional Document Preparation
+          </span>
+        </div>
+      </div>
+      
+      <div class="footer-contact">
+        <h3 data-lang-en="Contact Us" data-lang-es="Contáctenos">Contact Us</h3>
+        <address>
+          <p>
+            <i class="ph ph-map-pin"></i>
+            401 S Main St, Suite 205<br>
+            Pomona, CA 91766-1638
+          </p>
+          <p>
+            <i class="ph ph-phone"></i>
+            <a href="tel:+19096235276">(909) 623-5276</a>
+          </p>
+          <p>
+            <i class="ph ph-phone"></i>
+            <a href="tel:+19092424343">(909) 242-4343</a>
+          </p>
+          <p>
+            <i class="ph ph-envelope"></i>
+            <a href="mailto:documentassistant@msn.com">documentassistant@msn.com</a>
+          </p>
+        </address>
+        <p class="bilingual-notice">
+          <i class="ph ph-translate"></i>
+          <strong>Se Habla Español</strong>
+        </p>
+      </div>
+      
+      <div class="footer-hours">
+        <h3 data-lang-en="Office Hours" data-lang-es="Horario de Oficina">Office Hours</h3>
+        <ul>
+          <li>
+            <span data-lang-en="Monday - Friday:" data-lang-es="Lunes - Viernes:">Monday - Friday:</span>
+            9:00 AM - 5:00 PM
+          </li>
+          <li>
+            <span data-lang-en="Saturday:" data-lang-es="Sábado:">Saturday:</span>
+            <span data-lang-en="By Appointment" data-lang-es="Con Cita">By Appointment</span>
+          </li>
+          <li>
+            <span data-lang-en="Sunday:" data-lang-es="Domingo:">Sunday:</span>
+            <span data-lang-en="Closed" data-lang-es="Cerrado">Closed</span>
+          </li>
+        </ul>
+        <p class="appointment-notice">
+          <i class="ph ph-calendar-check"></i>
+          <span data-lang-en="By Appointment Only — No Walk-Ins"
+                data-lang-es="Solo con Cita — No se Atiende sin Cita">
+            By Appointment Only — No Walk-Ins
+          </span>
+        </p>
+      </div>
+    </div>
+    
+    <!-- Footer Middle: Credentials & Registrations -->
+    <div class="footer-credentials">
+      <h3 data-lang-en="Licenses & Registrations" data-lang-es="Licencias y Registros">Licenses & Registrations</h3>
+      
+      <div class="credentials-grid">
+        <!-- Business License -->
+        <div class="credential-item">
+          <i class="ph ph-buildings"></i>
+          <div class="credential-details">
+            <span class="credential-title" 
+                  data-lang-en="City of Pomona Business License"
+                  data-lang-es="Licencia Comercial de la Ciudad de Pomona">
+              City of Pomona Business License
+            </span>
+            <span class="credential-number">#00145257</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Expires:" data-lang-es="Vence:">Expires:</span> 
+              June 30, 2026
+            </span>
+          </div>
+        </div>
+        
+        <!-- Notary Public -->
+        <div class="credential-item">
+          <i class="ph ph-stamp"></i>
+          <div class="credential-details">
+            <span class="credential-title"
+                  data-lang-en="California Notary Public"
+                  data-lang-es="Notario Público de California">
+              California Notary Public
+            </span>
+            <span class="credential-number">Commission #2458791</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Expires:" data-lang-es="Vence:">Expires:</span> 
+              08/11/2027
+            </span>
+          </div>
+        </div>
+        
+        <!-- CTEC Tax Preparer -->
+        <div class="credential-item">
+          <i class="ph ph-calculator"></i>
+          <div class="credential-details">
+            <span class="credential-title"
+                  data-lang-en="CTEC Registered Tax Preparer"
+                  data-lang-es="Preparador de Impuestos Registrado CTEC">
+              CTEC Registered Tax Preparer
+            </span>
+            <span class="credential-number">CTEC ID: A130143</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Valid thru:" data-lang-es="Válido hasta:">Valid thru:</span> 
+              10/31/2026
+            </span>
+            <a href="https://ctec.org" target="_blank" rel="noopener" class="verify-link">
+              <span data-lang-en="Verify at CTEC.org" data-lang-es="Verificar en CTEC.org">Verify at CTEC.org</span>
+              <i class="ph ph-arrow-square-out"></i>
+            </a>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+    
+    <!-- Footer Bottom: Legal Disclaimer & Copyright -->
+    <div class="footer-bottom">
+      <div class="legal-disclaimer">
+        <p class="statutory-disclaimer">
+          <strong data-lang-en="IMPORTANT NOTICE:" data-lang-es="AVISO IMPORTANTE:">IMPORTANT NOTICE:</strong>
+          <span data-lang-en="I am not an attorney. I can only provide self-help services at your specific direction."
+                data-lang-es="No soy abogado. Solo puedo proporcionar servicios de autoayuda bajo su dirección específica.">
+            I am not an attorney. I can only provide self-help services at your specific direction.
+          </span>
+        </p>
+      </div>
+      
+      <div class="footer-links">
+        <a href="/disclaimers" 
+           data-lang-en="Full Disclaimers"
+           data-lang-es="Descargos Completos">Full Disclaimers</a>
+        <span class="divider">|</span>
+        <a href="/faq" 
+           data-lang-en="FAQ"
+           data-lang-es="Preguntas Frecuentes">FAQ</a>
+      </div>
+      
+      <div class="copyright">
+        <p>
+          © 2026 Document Assistance. 
+          <span data-lang-en="All rights reserved."
+                data-lang-es="Todos los derechos reservados.">
+            All rights reserved.
+          </span>
+        </p>
+        <p class="owner-credit">
+          Yaneth Cisneros — Pomona, CA
+        </p>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+  
+  <!-- Main JavaScript -->
+  <script src="/assets/js/main.js"></script>
+  
+  <!-- Structured Data for Local Business (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Document Assistance",
+    "description": "Professional Tax Preparation, Notary Public & Document Assistance Services in Pomona, CA",
+    "url": "http://localhost:4000",
+    "telephone": "(909) 623-5276",
+    "email": "documentassistant@msn.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "401 S Main St Suite 205",
+      "addressLocality": "Pomona",
+      "addressRegion": "CA",
+      "postalCode": "91766-1638",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "34.0551",
+      "longitude": "-117.7500"
+    },
+    "openingHours": "Mo-Fr 09:00-17:00",
+    "priceRange": "$$",
+    "areaServed": {
+      "@type": "City",
+      "name": "Pomona"
+    },
+    "serviceType": ["Tax Preparation", "Notary Public", "Document Preparation"]
+  }
+  </script>
+</body>
+</html>

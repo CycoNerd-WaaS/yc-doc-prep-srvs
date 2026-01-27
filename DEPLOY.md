@@ -52,12 +52,12 @@ cp "Firefly_Cornercuts_*.jpg" docs/assets/images/patterns/scallop-trim.jpg
 ### Step 2: Add Logo Files
 
 Copy logo files to `docs/assets/images/logo/`:
-- logo-16.png
-- logo-32.png
-- logo-64.png
-- logo-128.png
-- logo-180.png
-- logo-512.png
+- Logo-16.png
+- Logo-32.png
+- Logo-64.png
+- Logo-128.png
+- Logo-180.png
+- Logo-512.png
 - logo.svg (if available)
 
 ### Step 3: Setup Formspree

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- 
+    COMMENTS 
+    Filename: default.html
+    Created:  2026-01-25
+    Updated:  2026-01-25
+    Author:   CycoNerd
+    Client:   Yaneth Cisneros
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>Services | Document Assistance</title>
+  <meta name="description" content="Tax Preparation, Notary Public, and Document Assistance services in Pomona, CA. CTEC registered. California commissioned notary.">
+  <meta name="keywords" content="tax preparation, notary public, document assistance, Pomona CA, CTEC, legal documents, divorce papers, income tax">
+  <meta name="author" content="Yaneth Cisneros">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="http://localhost:4000/services.html">
+  <meta property="og:title" content="Services | Document Assistance">
+  <meta property="og:description" content="Tax Preparation, Notary Public, and Document Assistance services in Pomona, CA. CTEC registered. California commissioned notary.">
+  <meta property="og:image" content="http://localhost:4000/assets/images/logo/Logo-512.png">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Services | Document Assistance">
+  <meta property="twitter:description" content="Tax Preparation, Notary Public, and Document Assistance services in Pomona, CA. CTEC registered. California commissioned notary.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/logo/Logo-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/logo/Logo-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/logo/Logo-180.png">
+  
+  <!-- Google Fonts - Professional serif + humanist sans-serif -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+  <!-- Canonical URL -->
+  <link rel="canonical" href="http://localhost:4000/services.html">
+  
+  
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '');
+  </script>
+  
+</head>
+<body class="page-services.html" data-lang="en">
+  
+  <!-- Skip to main content (Accessibility) -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Header -->
+  <!-- ============================================================================
+     HEADER - Navigation & Language Toggle
+     COMMENTS 
+     Filename: default.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+<header class="site-header">
+  <div class="header-container">
+    
+    <!-- Logo & Business Name -->
+    <a href="/" class="Logo-link" aria-label="Document Assistance Home">
+      <img src="/assets/images/logo/Logo-64.png" 
+           alt="Document Assistance Logo" 
+           class="Logo-img"
+           width="48" 
+           height="48">
+      <span class="Logo-text">
+        <span class="Logo-name">Document Assistance</span>
+        <span class="Logo-tagline" data-lang-en="Tax • Notary • Documents" data-lang-es="Impuestos • Notario • Documentos">Tax • Notary • Documents</span>
+      </span>
+    </a>
+    
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" 
+            aria-label="Toggle navigation menu" 
+            aria-expanded="false"
+            aria-controls="main-nav">
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+      <span class="hamburger-line"></span>
+    </button>
+    
+    <!-- Main Navigation -->
+    <nav id="main-nav" class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="/" 
+             class="nav-link "
+             data-lang-en="Home"
+             data-lang-es="Inicio">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/about" 
+             class="nav-link "
+             data-lang-en="About"
+             data-lang-es="Acerca de">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="/services" 
+             class="nav-link active"
+             data-lang-en="Services"
+             data-lang-es="Servicios">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="/rates" 
+             class="nav-link "
+             data-lang-en="Rates"
+             data-lang-es="Tarifas">Rates</a>
+        </li>
+        <li class="nav-item">
+          <a href="/faq" 
+             class="nav-link "
+             data-lang-en="FAQ"
+             data-lang-es="Preguntas">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact" 
+             class="nav-link nav-link-cta "
+             data-lang-en="Contact"
+             data-lang-es="Contacto">Contact</a>
+        </li>
+      </ul>
+      
+      <!-- Language Toggle -->
+      <div class="language-toggle">
+        <button class="lang-btn" 
+                data-lang="en" 
+                aria-label="Switch to English"
+                aria-pressed="true">
+          EN
+        </button>
+        <span class="lang-divider">|</span>
+        <button class="lang-btn" 
+                data-lang="es" 
+                aria-label="Cambiar a Español"
+                aria-pressed="false">
+          ES
+        </button>
+      </div>
+    </nav>
+    
+  </div>
+</header>
+
+<!-- Disclaimer Strip (Always Visible) -->
+<div class="disclaimer-strip">
+  <div class="disclaimer-strip-content">
+    <i class="ph ph-info"></i>
+    <span data-lang-en="Not a law firm. We do not provide legal advice."
+          data-lang-es="No somos un bufete de abogados. No proporcionamos asesoramiento legal.">
+      Not a law firm. We do not provide legal advice.
+    </span>
+  </div>
+</div>
+
+  
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- ============================================================================
+     COMMENTS 
+     Filename: services.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+
+<!-- Services Header -->
+<section style="padding: var(--space-16) 0; background: var(--color-primary);">
+  <div class="container" style="text-align: center;">
+    <h1 style="color: var(--color-white);"
+        data-lang-en="Our Services"
+        data-lang-es="Nuestros Servicios">Our Services</h1>
+    <p style="font-size: var(--text-lg); color: rgba(255,255,255,0.85); max-width: 600px; margin: 0 auto;"
+       data-lang-en="Professional document preparation and administrative support services"
+       data-lang-es="Servicios profesionales de preparación de documentos y apoyo administrativo">
+      Professional document preparation and administrative support services
+    </p>
+  </div>
+</section>
+
+<!-- Tax Preparation Section -->
+<section id="tax" style="padding: var(--space-16) 0;">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: var(--space-12); align-items: start;">
+      <div>
+        <div class="service-icon" style="width: 100px; height: 100px; font-size: 3rem; margin-bottom: var(--space-6);">
+          <i class="ph-duotone ph-calculator"></i>
+        </div>
+        <h2 data-lang-en="Tax Preparation" data-lang-es="Preparación de Impuestos">Tax Preparation</h2>
+        <p style="color: var(--color-secondary); font-weight: 600;">
+          CTEC ID: A130143
+        </p>
+      </div>
+      
+      <div>
+        <p class="lead" style="font-size: var(--text-lg); margin-bottom: var(--space-6);"
+           data-lang-en="Yaneth Cisneros is a California Tax Education Council (CTEC) Registered Tax Preparer, providing accurate and professional income tax preparation services for individuals and small businesses."
+           data-lang-es="Yaneth Cisneros es una Preparadora de Impuestos Registrada con el Consejo de Educación Tributaria de California (CTEC), proporcionando servicios precisos y profesionales de preparación de impuestos para individuos y pequeñas empresas.">
+          Yaneth Cisneros is a California Tax Education Council (CTEC) Registered Tax Preparer, providing accurate and professional income tax preparation services for individuals and small businesses.
+        </p>
+        
+        <h3 data-lang-en="Services Include:" data-lang-es="Los Servicios Incluyen:">Services Include:</h3>
+        <ul style="columns: 2; column-gap: var(--space-8); list-style: none; margin-bottom: var(--space-6);">
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Individual Tax Returns (Form 1040)"
+                  data-lang-es="Declaraciones de Impuestos Individuales (Forma 1040)">Individual Tax Returns (Form 1040)</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Self-Employment Income"
+                  data-lang-es="Ingresos de Trabajo por Cuenta Propia">Self-Employment Income</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Rental Property Income"
+                  data-lang-es="Ingresos de Propiedad de Alquiler">Rental Property Income</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="ITIN Application & Renewal"
+                  data-lang-es="Solicitud y Renovación de ITIN">ITIN Application & Renewal</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Amended Tax Returns (1040X)"
+                  data-lang-es="Declaraciones Enmendadas (1040X)">Amended Tax Returns (1040X)</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Prior Year Filing"
+                  data-lang-es="Declaraciones de Años Anteriores">Prior Year Filing</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Interest & Dividend Income"
+                  data-lang-es="Ingresos por Intereses y Dividendos">Interest & Dividend Income</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Education Credits"
+                  data-lang-es="Créditos Educativos">Education Credits</span>
+          </li>
+        </ul>
+        
+        <p style="padding: var(--space-4); background: var(--color-light); border-radius: var(--radius-md); font-size: var(--text-sm);">
+          <i class="ph ph-info" style="color: var(--color-secondary); margin-right: var(--space-2);"></i>
+          <span data-lang-en="Verify CTEC registration at"
+                data-lang-es="Verifique el registro de CTEC en">Verify CTEC registration at</span>
+          <a href="https://ctec.org" target="_blank" rel="noopener">ctec.org</a>
+        </p>
+        
+        <a href="/rates#tax" class="btn btn-outline" style="margin-top: var(--space-6);">
+          <span data-lang-en="View Tax Rates" data-lang-es="Ver Tarifas de Impuestos">View Tax Rates</span>
+          <i class="ph ph-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr style="border: none; height: 1px; background: var(--color-light); margin: 0;">
+
+<!-- Notary Public Section -->
+<section id="notary" style="padding: var(--space-16) 0; background: var(--color-light);">
+  <div class="container">
+    <div style="display: grid; grid-template-columns: 1fr 2fr; gap: var(--space-12); align-items: start;">
+      <div>
+        <div class="service-icon" style="width: 100px; height: 100px; font-size: 3rem; margin-bottom: var(--space-6);">
+          <i class="ph-duotone ph-stamp"></i>
+        </div>
+        <h2 data-lang-en="Notary Public" data-lang-es="Notario Público">Notary Public</h2>
+        <p style="color: var(--color-secondary); font-weight: 600;">
+          <span data-lang-en="Commission" data-lang-es="Comisión">Commission</span> #2458791
+        </p>
+      </div>
+      
+      <div>
+        <p class="lead" style="font-size: var(--text-lg); margin-bottom: var(--space-6);"
+           data-lang-en="As a California commissioned Notary Public, Yaneth provides official notarization services for a variety of legal documents. A notary serves as an impartial witness to the signing of important documents."
+           data-lang-es="Como Notario Público comisionado de California, Yaneth proporciona servicios oficiales de notarización para una variedad de documentos legales. Un notario sirve como testigo imparcial de la firma de documentos importantes.">
+          As a California commissioned Notary Public, Yaneth provides official notarization services for a variety of legal documents. A notary serves as an impartial witness to the signing of important documents.
+        </p>
+        
+        <h3 data-lang-en="Services Include:" data-lang-es="Los Servicios Incluyen:">Services Include:</h3>
+        <ul style="columns: 2; column-gap: var(--space-8); list-style: none; margin-bottom: var(--space-6);">
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Acknowledgments" data-lang-es="Reconocimientos">Acknowledgments</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Jurats (Oaths)" data-lang-es="Juramentos">Jurats (Oaths)</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Certified Copies of Powers of Attorney"
+                  data-lang-es="Copias Certificadas de Poderes Notariales">Certified Copies of Powers of Attorney</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Affidavits" data-lang-es="Declaraciones Juradas">Affidavits</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Deeds & Contracts" data-lang-es="Escrituras y Contratos">Deeds & Contracts</span>
+          </li>
+          <li style="display: flex; align-items: flex-start; gap: var(--space-2); margin-bottom: var(--space-3);">
+            <i class="ph ph-check-circle" style="color: var(--color-secondary); margin-top: 4px;"></i>
+            <span data-lang-en="Powers of Attorney" data-lang-es="Poderes Notariales">Powers of Attorney</span>
+          </li>
+        </ul>
+        
+        <div style="padding: var(--space-4); background: var(--color-white); border-left: 4px solid var(--color-secondary); border-radius: var(--radius-sm); font-size: var(--text-sm);">
+          <strong data-lang-en="Note:" data-lang-es="Nota:">Note:</strong>
+          <span data-lang-en="Notary fees in California are regulated by law. Please call for current rates."
+                data-lang-es="Las tarifas de notario en California están reguladas por ley. Por favor llame para tarifas actuales.">
+            Notary fees in California are regulated by law. Please call for current rates.
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- CTA Section -->
+<section style="padding: var(--space-16) 0; background: var(--color-primary); color: var(--color-white); text-align: center;">
+  <div class="container">
+    <h2 style="color: var(--color-white);"
+        data-lang-en="Need Assistance?"
+        data-lang-es="¿Necesita Asistencia?">Need Assistance?</h2>
+    <p style="font-size: var(--text-lg); opacity: 0.9; margin-bottom: var(--space-8);"
+       data-lang-en="Contact us to discuss your needs and schedule an appointment."
+       data-lang-es="Contáctenos para discutir sus necesidades y programar una cita.">
+      Contact us to discuss your needs and schedule an appointment.
+    </p>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: var(--space-4);">
+      <a href="/contact" class="btn btn-primary btn-lg">
+        <i class="ph ph-calendar-check"></i>
+        <span data-lang-en="Schedule Consultation" data-lang-es="Programar Consulta">Schedule Consultation</span>
+      </a>
+      <a href="/rates" class="btn btn-secondary btn-lg">
+        <i class="ph ph-currency-dollar"></i>
+        <span data-lang-en="View All Rates" data-lang-es="Ver Todas las Tarifas">View All Rates</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+  </main>
+  
+  <!-- Footer -->
+  <!-- ============================================================================
+     FOOTER - Legal Disclaimers & Credentials
+     COMMENTS 
+     Filename: default.html
+     Created:  2026-01-25
+     Updated:  2026-01-25
+     Author:   CycoNerd
+     Client:   Yaneth Cisneros
+     ============================================================================ -->
+
+<!-- Pre-Footer Disclaimer Block -->
+<section class="pre-footer-disclaimer">
+  <div class="container">
+    <div class="disclaimer-box">
+      <i class="ph ph-scales"></i>
+      <p data-lang-en="DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, or represent you in court. We provide self-help services at your specific direction."
+         data-lang-es="DOCUMENT ASSISTANCE es un servicio de preparación de documentos legales sin abogado. No somos un bufete de abogados y no podemos proporcionar asesoramiento legal, interpretar la ley ni representarlo en la corte. Proporcionamos servicios de autoayuda bajo su dirección específica.">
+        DOCUMENT ASSISTANCE is a non-attorney legal document preparation service. We are not a law firm, and we cannot provide legal advice, interpret the law, or represent you in court. We provide self-help services at your specific direction.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <!-- Footer Top: Logo & Contact -->
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="/assets/images/logo/Logo-128.png" 
+             alt="Document Assistance Logo" 
+             class="footer-logo"
+             width="80" 
+             height="80">
+        <div class="footer-brand-text">
+          <span class="footer-brand-name">Document Assistance</span>
+          <span class="footer-brand-tagline" 
+                data-lang-en="Professional Document Preparation"
+                data-lang-es="Preparación Profesional de Documentos">
+            Professional Document Preparation
+          </span>
+        </div>
+      </div>
+      
+      <div class="footer-contact">
+        <h3 data-lang-en="Contact Us" data-lang-es="Contáctenos">Contact Us</h3>
+        <address>
+          <p>
+            <i class="ph ph-map-pin"></i>
+            401 S Main St, Suite 205<br>
+            Pomona, CA 91766-1638
+          </p>
+          <p>
+            <i class="ph ph-phone"></i>
+            <a href="tel:+19096235276">(909) 623-5276</a>
+          </p>
+          <p>
+            <i class="ph ph-phone"></i>
+            <a href="tel:+19092424343">(909) 242-4343</a>
+          </p>
+          <p>
+            <i class="ph ph-envelope"></i>
+            <a href="mailto:documentassistant@msn.com">documentassistant@msn.com</a>
+          </p>
+        </address>
+        <p class="bilingual-notice">
+          <i class="ph ph-translate"></i>
+          <strong>Se Habla Español</strong>
+        </p>
+      </div>
+      
+      <div class="footer-hours">
+        <h3 data-lang-en="Office Hours" data-lang-es="Horario de Oficina">Office Hours</h3>
+        <ul>
+          <li>
+            <span data-lang-en="Monday - Friday:" data-lang-es="Lunes - Viernes:">Monday - Friday:</span>
+            9:00 AM - 5:00 PM
+          </li>
+          <li>
+            <span data-lang-en="Saturday:" data-lang-es="Sábado:">Saturday:</span>
+            <span data-lang-en="By Appointment" data-lang-es="Con Cita">By Appointment</span>
+          </li>
+          <li>
+            <span data-lang-en="Sunday:" data-lang-es="Domingo:">Sunday:</span>
+            <span data-lang-en="Closed" data-lang-es="Cerrado">Closed</span>
+          </li>
+        </ul>
+        <p class="appointment-notice">
+          <i class="ph ph-calendar-check"></i>
+          <span data-lang-en="By Appointment Only — No Walk-Ins"
+                data-lang-es="Solo con Cita — No se Atiende sin Cita">
+            By Appointment Only — No Walk-Ins
+          </span>
+        </p>
+      </div>
+    </div>
+    
+    <!-- Footer Middle: Credentials & Registrations -->
+    <div class="footer-credentials">
+      <h3 data-lang-en="Licenses & Registrations" data-lang-es="Licencias y Registros">Licenses & Registrations</h3>
+      
+      <div class="credentials-grid">
+        <!-- Business License -->
+        <div class="credential-item">
+          <i class="ph ph-buildings"></i>
+          <div class="credential-details">
+            <span class="credential-title" 
+                  data-lang-en="City of Pomona Business License"
+                  data-lang-es="Licencia Comercial de la Ciudad de Pomona">
+              City of Pomona Business License
+            </span>
+            <span class="credential-number">#00145257</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Expires:" data-lang-es="Vence:">Expires:</span> 
+              June 30, 2026
+            </span>
+          </div>
+        </div>
+        
+        <!-- Notary Public -->
+        <div class="credential-item">
+          <i class="ph ph-stamp"></i>
+          <div class="credential-details">
+            <span class="credential-title"
+                  data-lang-en="California Notary Public"
+                  data-lang-es="Notario Público de California">
+              California Notary Public
+            </span>
+            <span class="credential-number">Commission #2458791</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Expires:" data-lang-es="Vence:">Expires:</span> 
+              08/11/2027
+            </span>
+          </div>
+        </div>
+        
+        <!-- CTEC Tax Preparer -->
+        <div class="credential-item">
+          <i class="ph ph-calculator"></i>
+          <div class="credential-details">
+            <span class="credential-title"
+                  data-lang-en="CTEC Registered Tax Preparer"
+                  data-lang-es="Preparador de Impuestos Registrado CTEC">
+              CTEC Registered Tax Preparer
+            </span>
+            <span class="credential-number">CTEC ID: A130143</span>
+            <span class="credential-expiry">
+              <span data-lang-en="Valid thru:" data-lang-es="Válido hasta:">Valid thru:</span> 
+              10/31/2026
+            </span>
+            <a href="https://ctec.org" target="_blank" rel="noopener" class="verify-link">
+              <span data-lang-en="Verify at CTEC.org" data-lang-es="Verificar en CTEC.org">Verify at CTEC.org</span>
+              <i class="ph ph-arrow-square-out"></i>
+            </a>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+    
+    <!-- Footer Bottom: Legal Disclaimer & Copyright -->
+    <div class="footer-bottom">
+      <div class="legal-disclaimer">
+        <p class="statutory-disclaimer">
+          <strong data-lang-en="IMPORTANT NOTICE:" data-lang-es="AVISO IMPORTANTE:">IMPORTANT NOTICE:</strong>
+          <span data-lang-en="I am not an attorney. I can only provide self-help services at your specific direction."
+                data-lang-es="No soy abogado. Solo puedo proporcionar servicios de autoayuda bajo su dirección específica.">
+            I am not an attorney. I can only provide self-help services at your specific direction.
+          </span>
+        </p>
+      </div>
+      
+      <div class="footer-links">
+        <a href="/disclaimers" 
+           data-lang-en="Full Disclaimers"
+           data-lang-es="Descargos Completos">Full Disclaimers</a>
+        <span class="divider">|</span>
+        <a href="/faq" 
+           data-lang-en="FAQ"
+           data-lang-es="Preguntas Frecuentes">FAQ</a>
+      </div>
+      
+      <div class="copyright">
+        <p>
+          © 2026 Document Assistance. 
+          <span data-lang-en="All rights reserved."
+                data-lang-es="Todos los derechos reservados.">
+            All rights reserved.
+          </span>
+        </p>
+        <p class="owner-credit">
+          Yaneth Cisneros — Pomona, CA
+        </p>
+      </div>
+    </div>
+    
+  </div>
+</footer>
+
+  
+  <!-- Main JavaScript -->
+  <script src="/assets/js/main.js"></script>
+  
+  <!-- Structured Data for Local Business (SEO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Document Assistance",
+    "description": "Professional Tax Preparation, Notary Public & Document Assistance Services in Pomona, CA",
+    "url": "http://localhost:4000",
+    "telephone": "(909) 623-5276",
+    "email": "documentassistant@msn.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "401 S Main St Suite 205",
+      "addressLocality": "Pomona",
+      "addressRegion": "CA",
+      "postalCode": "91766-1638",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "34.0551",
+      "longitude": "-117.7500"
+    },
+    "openingHours": "Mo-Fr 09:00-17:00",
+    "priceRange": "$$",
+    "areaServed": {
+      "@type": "City",
+      "name": "Pomona"
+    },
+    "serviceType": ["Tax Preparation", "Notary Public", "Document Preparation"]
+  }
+  </script>
+</body>
+</html>
