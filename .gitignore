@@ -1,2 +1,7 @@
 .DS_Store
 Thumbs.db
+/vendor/bundle
+/.bundle
+/_site
+/.jekyll-cache
+docs/_site
