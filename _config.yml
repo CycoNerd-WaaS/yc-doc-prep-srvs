@@ -31,7 +31,7 @@ exclude:
 # IMPORTANT: Set enable_lda_services to true ONLY when the $25,000 bond is active
 # and LDA registration is complete with Los Angeles County.
 
-enable_lda_services: false  # Change to true when bond is secured
+enable_lda_services: true  # Change to true when bond is secured
 
 # ==============================================================================
 # Business Information
@@ -78,18 +78,27 @@ business:
     # CTEC Registered Tax Preparer
     ctec:
       id: "A130143"
+      name: "MIRNA Y. CISNEROS"
       valid_thru: "10/31/2026"
       bond_company: "RLI Insurance Company"
       bond_policy: "905308"
       bond_amount: "$5,000"
     
     # Legal Document Assistant (PENDING)
+    # lda:
+    #   registration_number: "" # Add when bond is secured
+    #   county: "Los Angeles"
+    #   expiration: "" # Add when bond is secured
+    #   bond_amount: "$25,000"
+    #   status: "Pending Bond"
     lda:
-      registration_number: "" # Add when bond is secured
+      registration_number: "5343280"  # Bond number
       county: "Los Angeles"
-      expiration: "" # Add when bond is secured
+      effective_date: "January 21, 2026"
+      expiration: "January 20, 2028"
       bond_amount: "$25,000"
-      status: "Pending Bond"
+      bond_company: "SureTec Insurance Company"
+      status: "Active"
 
 # ==============================================================================
 # Social & Links (Currently None)
